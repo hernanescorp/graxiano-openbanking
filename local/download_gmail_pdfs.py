@@ -8,7 +8,7 @@ from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
 from googleapiclient.discovery import build
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 TOKEN_FILE = ROOT / "secrets/gmail-token.json"
 OUTPUT_DIR = ROOT / "data/gmail/laboral_kutxa"
 

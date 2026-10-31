@@ -8,7 +8,7 @@ from urllib.parse import parse_qs, urlsplit
 from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 CLIENT_FILE = ROOT / "secrets/gmail-client.json"
 TOKEN_FILE = ROOT / "secrets/gmail-token.json"
 

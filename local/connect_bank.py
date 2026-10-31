@@ -14,7 +14,9 @@ BANK_NAME = "Laboral Kutxa"
 REDIRECT_URL = "https://www.graxiano.com/openbanking/callback"
 BASE_URL = "https://api.enablebanking.com"
 
-private_key = Path("secrets/private-prod.pem").read_text()
+ROOT = Path(__file__).resolve().parents[1]
+
+private_key = (ROOT / "secrets/private-prod.pem").read_text()
 
 
 def headers():
@@ -94,7 +96,7 @@ if not code:
 
 session = post("/sessions", {"code": code})
 
-destination = Path("secrets/session-laboral.json")
+destination = ROOT / "secrets/session-laboral.json"
 
 fd = os.open(
     destination,

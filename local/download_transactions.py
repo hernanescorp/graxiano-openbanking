@@ -9,7 +9,7 @@ import requests
 
 APP_ID = "2330c837-db68-4541-b14e-19d56818fcb6"
 BASE_URL = "https://api.enablebanking.com"
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 
 PRIVATE_KEY = (ROOT / "secrets/private-prod.pem").read_text()
 
