@@ -1,0 +1,19 @@
+resources:
+  jobs:
+    openbanking_gmail_monthly:
+      name: openbanking-gmail-monthly
+      email_notifications:
+        on_failure:
+          - admin@graxiano.com
+      schedule:
+        quartz_cron_expression: 49 0 0 3 * ?
+        timezone_id: Europe/Madrid
+        pause_status: UNPAUSED
+      tasks:
+        - task_key: ingest_gmail
+          notebook_task:
+            notebook_path: ../notebooks/01_ingest_gmail.py.ipynb
+            source: WORKSPACE
+      queue:
+        enabled: true
+      performance_target: PERFORMANCE_OPTIMIZED

@@ -1,0 +1,12 @@
+bundle:
+  name: graxiano-openbanking
+
+include:
+  - resources/*.yml
+
+workspace:
+  host: https://adb-7405617890011557.17.azuredatabricks.net
+
+targets:
+  prod:
+    default: true
