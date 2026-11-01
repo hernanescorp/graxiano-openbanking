@@ -12,7 +12,7 @@ resources:
       tasks:
         - task_key: ingest_gmail
           notebook_task:
-            notebook_path: /Workspace/Users/admin@graxiano.com/graxiano-openbanking/notebooks/01_ingest_gmail.py
+            notebook_path: ../notebooks/01_ingest_gmail.py.ipynb
             source: WORKSPACE
       queue:
         enabled: true
