@@ -17,7 +17,7 @@
     }
   },
   "extraction": {
-    "initial_lookback_days": 90,
+    "initial_strategy": "longest",
     "overlap_days": 7,
     "request_timeout_seconds": 60
   }
