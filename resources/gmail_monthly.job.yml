@@ -6,7 +6,7 @@ resources:
         on_failure:
           - admin@graxiano.com
       schedule:
-        quartz_cron_expression: 49 0 0 3 * ?
+        quartz_cron_expression: "0 0 0 4 * ?"
         timezone_id: Europe/Madrid
         pause_status: UNPAUSED
       tasks:
