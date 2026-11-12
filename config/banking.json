@@ -1,0 +1,24 @@
+{
+  "base_url": "https://api.enablebanking.com",
+  "application_id": "2330c837-db68-4541-b14e-19d56818fcb6",
+  "storage": {
+    "account_name": "graxianodatalake",
+    "container_name": "raw",
+    "prefix": "personal/finanzas/openbanking/enablebanking"
+  },
+  "secret_scope": "openbanking",
+  "private_key_secret": "enablebanking-private-key",
+  "banks": {
+    "santander": {
+      "session_secret": "session-santander"
+    },
+    "laboral": {
+      "session_secret": "session-laboral"
+    }
+  },
+  "extraction": {
+    "initial_strategy": "longest",
+    "overlap_days": 7,
+    "request_timeout_seconds": 60
+  }
+}

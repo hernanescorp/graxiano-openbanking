@@ -20,3 +20,12 @@ class Storage:
     def download(self, path):
         """Leer el contenido de un archivo como bytes."""
         return self.container.download_blob(path).readall()
+    
+    def list_paths(self, prefix):
+        """Listar rutas de archivos bajo un prefijo."""
+        return [
+            blob.name
+            for blob in self.container.list_blobs(
+                name_starts_with=prefix
+            )
+        ]
