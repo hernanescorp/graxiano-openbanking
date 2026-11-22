@@ -4,6 +4,10 @@ bundle:
 include:
   - resources/*.yml
 
+sync:
+  exclude:
+    - powerbi/**
+
 workspace:
   host: https://adb-7405617890011557.17.azuredatabricks.net
 

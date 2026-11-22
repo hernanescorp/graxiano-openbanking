@@ -1,0 +1,30 @@
+relationship 37ba536d-7736-4716-9e6e-7d68861c5ff8
+	joinOnDateBehavior: datePartOnly
+	fromColumn: laboral_cuenta_transacciones.extracted_at
+	toColumn: LocalDateTable_0daac7d8-ab4d-4910-b04d-4169161f5ce3.Date
+
+relationship 82547725-cc7f-4f22-810c-7386ab8febe8
+	joinOnDateBehavior: datePartOnly
+	fromColumn: laboral_cuenta_transacciones.'transaction_json.booking_date'
+	toColumn: LocalDateTable_2e2bdd15-cab4-40dd-844d-0f01a906fb6c.Date
+
+relationship 7e356859-cd2f-4012-87d1-ca7cf6ac60c9
+	joinOnDateBehavior: datePartOnly
+	fromColumn: laboral_cuenta_transacciones.'transaction_json.value_date'
+	toColumn: LocalDateTable_f3393d08-736a-4405-9a2d-243ccb2917ca.Date
+
+relationship 3c44ba24-6698-4747-8760-9f6d7bd9de33
+	joinOnDateBehavior: datePartOnly
+	fromColumn: santander_cuenta_transacciones.extracted_at
+	toColumn: LocalDateTable_0faa63a4-fe04-4381-9193-71b4678b2fb7.Date
+
+relationship 9f4b3513-63b1-4b44-a4df-f07f6bf9220c
+	joinOnDateBehavior: datePartOnly
+	fromColumn: santander_cuenta_transacciones.'transaction_json.booking_date'
+	toColumn: LocalDateTable_3678aeb4-a75e-4182-9446-6545b18b2562.Date
+
+relationship 0423ee28-a980-4f99-8507-30d707ee9b04
+	joinOnDateBehavior: datePartOnly
+	fromColumn: santander_cuenta_transacciones.'transaction_json.value_date'
+	toColumn: LocalDateTable_84257ff9-cd79-4e90-815a-55b112ed7d50.Date
+

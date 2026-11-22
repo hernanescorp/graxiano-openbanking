@@ -1,0 +1,2481 @@
+cultureInfo es-ES
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "openbanking_bronze_enablebanking_transactions": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "laboral_cuenta_transacciones"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "`openbanking` `bronze` `enablebanking_transactions`": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "`openbanking` `bronze` `enablebanking_transaction`": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions.transaction_position": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "laboral_cuenta_transacciones",
+			          "ConceptualProperty": "transaction_position"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "transaction position": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "transaction_position": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "position": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "transaction location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "transaction situation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "situation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "transaction place": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "transaction site": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "transaction spot": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "transaction point": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "transaction station": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "place": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions.bank": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "laboral_cuenta_transacciones",
+			          "ConceptualProperty": "bank"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "bank": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "series": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "set": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "row": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "tier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "array": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "panel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "depository": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "reservoir": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "collection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "store": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions.extracted_at": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "laboral_cuenta_transacciones",
+			          "ConceptualProperty": "extracted_at"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "extracted at": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "extracted_at": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "openbanking_bronze_enablebanking_transactions.extracted_at.jerarquía_de_fecha": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "laboral_cuenta_transacciones",
+			          "VariationSource": "extracted_at",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Jerarquía de fechas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "jerarquía de fecha": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions.extracted_at.año": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "laboral_cuenta_transacciones",
+			          "VariationSource": "extracted_at",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Año"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "año": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "extracted at año": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions.extracted_at.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "laboral_cuenta_transacciones",
+			          "VariationSource": "extracted_at",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "extracted at trimestre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions.extracted_at.me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "laboral_cuenta_transacciones",
+			          "VariationSource": "extracted_at",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Mes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "me": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "extracted at me": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions.extracted_at.día": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "laboral_cuenta_transacciones",
+			          "VariationSource": "extracted_at",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Día"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "día": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "extracted at día": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions.page_number": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "laboral_cuenta_transacciones",
+			          "ConceptualProperty": "page_number"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "page number": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "page_number": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "page no": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions.schema_version": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "laboral_cuenta_transacciones",
+			          "ConceptualProperty": "schema_version"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "schema version": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "schema_version": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "version": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "schema variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "schema form": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "schema type": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "schema kind": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "schema sort": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "schema style": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "form": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "type": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "kind": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions.transaction_json_transaction_amount_amount": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "laboral_cuenta_transacciones",
+			          "ConceptualProperty": "transaction_json.transaction_amount.amount"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "transaction_json.transaction_amount.amount": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "transaction_json.transaction_amount. quantity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "transaction_json.transaction_amount. volume": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "transaction_json.transaction_amount. expanse": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "transaction_json.transaction_amount. extent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "transaction_json.transaction_amount. sum": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "transaction_json.transaction_amount. total": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "transaction_json.transaction_amount. aggregate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "monto": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "laboral_cuenta_transacciones",
+			          "ConceptualProperty": "transaction_json.booking_date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "transaction_json.booking_date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.jerarquía_de_fecha": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "laboral_cuenta_transacciones",
+			          "VariationSource": "transaction_json.booking_date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Jerarquía de fechas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "jerarquía de fecha": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.año": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "laboral_cuenta_transacciones",
+			          "VariationSource": "transaction_json.booking_date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Año"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "año": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "transaction_json.booking_date año": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "laboral_cuenta_transacciones",
+			          "VariationSource": "transaction_json.booking_date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "transaction_json.booking_date trimestre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "laboral_cuenta_transacciones",
+			          "VariationSource": "transaction_json.booking_date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Mes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "me": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "transaction_json.booking_date me": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.día": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "laboral_cuenta_transacciones",
+			          "VariationSource": "transaction_json.booking_date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Día"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "día": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "transaction_json.booking_date día": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions.transaction_json_value_date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "laboral_cuenta_transacciones",
+			          "ConceptualProperty": "transaction_json.value_date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "transaction_json.value_date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.jerarquía_de_fecha": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "laboral_cuenta_transacciones",
+			          "VariationSource": "transaction_json.value_date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Jerarquía de fechas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "jerarquía de fecha": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.año": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "laboral_cuenta_transacciones",
+			          "VariationSource": "transaction_json.value_date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Año"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "año": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "transaction_json.value_date año": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "laboral_cuenta_transacciones",
+			          "VariationSource": "transaction_json.value_date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "transaction_json.value_date trimestre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "laboral_cuenta_transacciones",
+			          "VariationSource": "transaction_json.value_date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Mes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "me": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "transaction_json.value_date me": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.día": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "laboral_cuenta_transacciones",
+			          "VariationSource": "transaction_json.value_date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Día"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "día": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "transaction_json.value_date día": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions.transaction_json_remittance_information": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "laboral_cuenta_transacciones",
+			          "ConceptualProperty": "transaction_json.remittance_information"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "transaction_json.remittance_information": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions.transaction_json_credit_debit_indicator": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "laboral_cuenta_transacciones",
+			          "ConceptualProperty": "transaction_json.credit_debit_indicator"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "transaction_json.credit_debit_indicator": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "openbanking_bronze_enablebanking_transactions_transaction_json_value_date_trimestre_has_openbanking_bronze_enablebanking_transactions_transaction_json_value_date_me": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.trimestre": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.trimestre"
+			          }
+			        },
+			        "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.me": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.trimestre"
+			            },
+			            "Object": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_me"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.me"
+			            },
+			            "Object": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_have_trimestres"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.me"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_are_in_trimestres2"
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions_transaction_json_value_date_año_has_openbanking_bronze_enablebanking_transactions_transaction_json_value_date_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.año": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.año"
+			          }
+			        },
+			        "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.trimestre": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.año"
+			            },
+			            "Object": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "años_have_trimestres"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.trimestre"
+			            },
+			            "Object": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_años"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_años2"
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions_transaction_json_value_date_jerarquía_de_fecha_has_openbanking_bronze_enablebanking_transactions_transaction_json_value_date_día": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.jerarquía_de_fecha"
+			          }
+			        },
+			        "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.día": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.día"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.día"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_días"
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions_transaction_json_value_date_jerarquía_de_fecha_has_openbanking_bronze_enablebanking_transactions_transaction_json_value_date_me": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.jerarquía_de_fecha"
+			          }
+			        },
+			        "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.me": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_me"
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions_transaction_json_value_date_jerarquía_de_fecha_has_openbanking_bronze_enablebanking_transactions_transaction_json_value_date_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.jerarquía_de_fecha"
+			          }
+			        },
+			        "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.trimestre": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_trimestres"
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions_transaction_json_value_date_jerarquía_de_fecha_has_openbanking_bronze_enablebanking_transactions_transaction_json_value_date_año": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.jerarquía_de_fecha"
+			          }
+			        },
+			        "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.año": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.año"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_años"
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions_transaction_json_value_date_has_jerarquía_de_fecha": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "openbanking_bronze_enablebanking_transactions.transaction_json_value_date": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date"
+			          }
+			        },
+			        "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.jerarquía_de_fecha"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date"
+			            },
+			            "Object": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.jerarquía_de_fecha"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "transaction_json_value_dates_have_jerarquía_de_fechas"
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions_transaction_json_booking_date_me_has_openbanking_bronze_enablebanking_transactions_transaction_json_booking_date_día": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.me": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.me"
+			          }
+			        },
+			        "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.día": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.día"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.me"
+			            },
+			            "Object": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.día"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_have_días"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.día"
+			            },
+			            "Object": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "días_have_me"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.día"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "días_are_in_me1"
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions_transaction_json_booking_date_trimestre_has_openbanking_bronze_enablebanking_transactions_transaction_json_booking_date_me": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.trimestre": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.trimestre"
+			          }
+			        },
+			        "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.me": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.trimestre"
+			            },
+			            "Object": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_me1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.me"
+			            },
+			            "Object": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_have_trimestres1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.me"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_are_in_trimestres1"
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions_transaction_json_booking_date_año_has_openbanking_bronze_enablebanking_transactions_transaction_json_booking_date_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.año": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.año"
+			          }
+			        },
+			        "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.trimestre": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.año"
+			            },
+			            "Object": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "años_have_trimestres1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.trimestre"
+			            },
+			            "Object": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_años1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_años1"
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions_transaction_json_booking_date_jerarquía_de_fecha_has_openbanking_bronze_enablebanking_transactions_transaction_json_booking_date_día": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.jerarquía_de_fecha"
+			          }
+			        },
+			        "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.día": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.día"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.día"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_días1"
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions_transaction_json_booking_date_jerarquía_de_fecha_has_openbanking_bronze_enablebanking_transactions_transaction_json_booking_date_me": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.jerarquía_de_fecha"
+			          }
+			        },
+			        "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.me": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_me1"
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions_transaction_json_booking_date_jerarquía_de_fecha_has_openbanking_bronze_enablebanking_transactions_transaction_json_booking_date_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.jerarquía_de_fecha"
+			          }
+			        },
+			        "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.trimestre": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_trimestres1"
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions_transaction_json_booking_date_jerarquía_de_fecha_has_openbanking_bronze_enablebanking_transactions_transaction_json_booking_date_año": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.jerarquía_de_fecha"
+			          }
+			        },
+			        "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.año": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.año"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_años1"
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions_transaction_json_booking_date_has_jerarquía_de_fecha": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date"
+			          }
+			        },
+			        "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.jerarquía_de_fecha"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date"
+			            },
+			            "Object": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.jerarquía_de_fecha"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "transaction_json_booking_dates_have_jerarquía_de_fechas"
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions_extracted_at_me_has_openbanking_bronze_enablebanking_transactions_extracted_at_día": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "openbanking_bronze_enablebanking_transactions.extracted_at.me": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.extracted_at.me"
+			          }
+			        },
+			        "openbanking_bronze_enablebanking_transactions.extracted_at.día": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.extracted_at.día"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at.me"
+			            },
+			            "Object": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at.día"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_have_días1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at.día"
+			            },
+			            "Object": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "días_have_me1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at.día"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "días_are_in_me"
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions_extracted_at_trimestre_has_openbanking_bronze_enablebanking_transactions_extracted_at_me": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "openbanking_bronze_enablebanking_transactions.extracted_at.trimestre": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.extracted_at.trimestre"
+			          }
+			        },
+			        "openbanking_bronze_enablebanking_transactions.extracted_at.me": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.extracted_at.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at.trimestre"
+			            },
+			            "Object": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_me2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at.me"
+			            },
+			            "Object": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_have_trimestres2"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at.me"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_are_in_trimestres"
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions_extracted_at_año_has_openbanking_bronze_enablebanking_transactions_extracted_at_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "openbanking_bronze_enablebanking_transactions.extracted_at.año": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.extracted_at.año"
+			          }
+			        },
+			        "openbanking_bronze_enablebanking_transactions.extracted_at.trimestre": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.extracted_at.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at.año"
+			            },
+			            "Object": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "años_have_trimestres2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at.trimestre"
+			            },
+			            "Object": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_años2"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_años"
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions_extracted_at_jerarquía_de_fecha_has_openbanking_bronze_enablebanking_transactions_extracted_at_día": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "openbanking_bronze_enablebanking_transactions.extracted_at.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.extracted_at.jerarquía_de_fecha"
+			          }
+			        },
+			        "openbanking_bronze_enablebanking_transactions.extracted_at.día": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.extracted_at.día"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at.día"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_días2"
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions_extracted_at_jerarquía_de_fecha_has_openbanking_bronze_enablebanking_transactions_extracted_at_me": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "openbanking_bronze_enablebanking_transactions.extracted_at.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.extracted_at.jerarquía_de_fecha"
+			          }
+			        },
+			        "openbanking_bronze_enablebanking_transactions.extracted_at.me": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.extracted_at.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_me2"
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions_extracted_at_jerarquía_de_fecha_has_openbanking_bronze_enablebanking_transactions_extracted_at_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "openbanking_bronze_enablebanking_transactions.extracted_at.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.extracted_at.jerarquía_de_fecha"
+			          }
+			        },
+			        "openbanking_bronze_enablebanking_transactions.extracted_at.trimestre": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.extracted_at.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_trimestres2"
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions_extracted_at_jerarquía_de_fecha_has_openbanking_bronze_enablebanking_transactions_extracted_at_año": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "openbanking_bronze_enablebanking_transactions.extracted_at.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.extracted_at.jerarquía_de_fecha"
+			          }
+			        },
+			        "openbanking_bronze_enablebanking_transactions.extracted_at.año": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.extracted_at.año"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_años2"
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions_extracted_at_has_jerarquía_de_fecha": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "openbanking_bronze_enablebanking_transactions.extracted_at": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.extracted_at"
+			          }
+			        },
+			        "openbanking_bronze_enablebanking_transactions.extracted_at.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.extracted_at.jerarquía_de_fecha"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at"
+			            },
+			            "Object": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at.jerarquía_de_fecha"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "extracted_at_have_jerarquía_de_fechas"
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions_has_transaction_json_credit_debit_indicator": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "openbanking_bronze_enablebanking_transactions": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions"
+			          }
+			        },
+			        "openbanking_bronze_enablebanking_transactions.transaction_json_credit_debit_indicator": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_credit_debit_indicator"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "openbanking_bronze_enablebanking_transactions"
+			            },
+			            "Object": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_credit_debit_indicator"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "openbanking_bronze_enablebanking_transactions_have_transaction_json_credit_debit_indicators"
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions_has_transaction_json_remittance_information": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "openbanking_bronze_enablebanking_transactions": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions"
+			          }
+			        },
+			        "openbanking_bronze_enablebanking_transactions.transaction_json_remittance_information": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_remittance_information"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "openbanking_bronze_enablebanking_transactions"
+			            },
+			            "Object": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_remittance_information"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "openbanking_bronze_enablebanking_transactions_have_transaction_json_remittance_informations"
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions_has_transaction_json_value_date": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "openbanking_bronze_enablebanking_transactions": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions"
+			          }
+			        },
+			        "openbanking_bronze_enablebanking_transactions.transaction_json_value_date": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "openbanking_bronze_enablebanking_transactions"
+			            },
+			            "Object": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "openbanking_bronze_enablebanking_transactions_have_transaction_json_value_dates"
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions_has_transaction_json_booking_date": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "openbanking_bronze_enablebanking_transactions": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions"
+			          }
+			        },
+			        "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "openbanking_bronze_enablebanking_transactions"
+			            },
+			            "Object": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "openbanking_bronze_enablebanking_transactions_have_transaction_json_booking_dates"
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions_has_transaction_json_transaction_amount_amount": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "openbanking_bronze_enablebanking_transactions": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions"
+			          }
+			        },
+			        "openbanking_bronze_enablebanking_transactions.transaction_json_transaction_amount_amount": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_transaction_amount_amount"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "openbanking_bronze_enablebanking_transactions"
+			            },
+			            "Object": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_transaction_amount_amount"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "openbanking_bronze_enablebanking_transactions_have_transaction_json_transaction_amount_amounts"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "openbanking_bronze_enablebanking_transactions"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_transaction_amount_amount"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "transaction_json_transaction_amount_amount_indicates_how_expensive_openbanking_bronze_enablebanking_transactions_are"
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions_has_schema_version": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "openbanking_bronze_enablebanking_transactions": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions"
+			          }
+			        },
+			        "openbanking_bronze_enablebanking_transactions.schema_version": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.schema_version"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "openbanking_bronze_enablebanking_transactions"
+			            },
+			            "Object": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.schema_version"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "openbanking_bronze_enablebanking_transactions_have_schema_versions"
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions_has_page_number": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "openbanking_bronze_enablebanking_transactions": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions"
+			          }
+			        },
+			        "openbanking_bronze_enablebanking_transactions.page_number": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.page_number"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "openbanking_bronze_enablebanking_transactions"
+			            },
+			            "Object": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.page_number"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "openbanking_bronze_enablebanking_transactions_have_page_numbers"
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions_has_extracted_at": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "openbanking_bronze_enablebanking_transactions": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions"
+			          }
+			        },
+			        "openbanking_bronze_enablebanking_transactions.extracted_at": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.extracted_at"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "openbanking_bronze_enablebanking_transactions"
+			            },
+			            "Object": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "openbanking_bronze_enablebanking_transactions_have_extracted_at"
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions_has_bank": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "openbanking_bronze_enablebanking_transactions": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions"
+			          }
+			        },
+			        "openbanking_bronze_enablebanking_transactions.bank": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.bank"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "openbanking_bronze_enablebanking_transactions"
+			            },
+			            "Object": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.bank"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "openbanking_bronze_enablebanking_transactions_have_banks"
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions_has_transaction_position": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "openbanking_bronze_enablebanking_transactions": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions"
+			          }
+			        },
+			        "openbanking_bronze_enablebanking_transactions.transaction_position": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_position"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "openbanking_bronze_enablebanking_transactions"
+			            },
+			            "Object": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_position"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "openbanking_bronze_enablebanking_transactions_have_transaction_positions"
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions_is_extracted_on_extracted_at": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "openbanking_bronze_enablebanking_transactions": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions"
+			          }
+			        },
+			        "openbanking_bronze_enablebanking_transactions.extracted_at": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.extracted_at"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "When": {
+			          "Role": "openbanking_bronze_enablebanking_transactions.extracted_at"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "extract": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "openbanking_bronze_enablebanking_transactions"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.9,
+			          "ID": "openbanking_bronze_enablebanking_transactions_are_extracted_on_extracted_at"
+			        }
+			      ]
+			    },
+			    "openbanking_bronze_enablebanking_transactions_transaction_json_value_date_me_has_openbanking_bronze_enablebanking_transactions_transaction_json_value_date_día": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.me": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.me"
+			          }
+			        },
+			        "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.día": {
+			          "Target": {
+			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.día"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.me"
+			            },
+			            "Object": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.día"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_have_días2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.día"
+			            },
+			            "Object": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "días_have_me2"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.día"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "días_are_in_me2"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+
