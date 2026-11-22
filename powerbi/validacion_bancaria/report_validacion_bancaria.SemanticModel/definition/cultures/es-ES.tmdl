@@ -5,7 +5,7 @@ cultureInfo es-ES
 			  "Version": "4.1.0",
 			  "Language": "en-US",
 			  "Entities": {
-			    "openbanking_bronze_enablebanking_transactions": {
+			    "laboral_cuenta_transaccione": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "laboral_cuenta_transacciones"
@@ -14,20 +14,20 @@ cultureInfo es-ES
 			      "State": "Generated",
 			      "Terms": [
 			        {
-			          "`openbanking` `bronze` `enablebanking_transactions`": {
+			          "laboral cuenta transaccione": {
 			            "State": "Generated"
 			          }
 			        },
 			        {
-			          "`openbanking` `bronze` `enablebanking_transaction`": {
+			          "laboral_cuenta_transacciones": {
 			            "Type": "Noun",
 			            "State": "Generated",
-			            "Weight": 0.78
+			            "Weight": 0.99
 			          }
 			        }
 			      ]
 			    },
-			    "openbanking_bronze_enablebanking_transactions.transaction_position": {
+			    "laboral_cuenta_transaccione.transaction_position": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "laboral_cuenta_transacciones",
@@ -156,7 +156,7 @@ cultureInfo es-ES
 			        }
 			      ]
 			    },
-			    "openbanking_bronze_enablebanking_transactions.bank": {
+			    "laboral_cuenta_transaccione.bank": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "laboral_cuenta_transacciones",
@@ -269,10 +269,20 @@ cultureInfo es-ES
 			            },
 			            "Weight": 0.452
 			          }
+			        },
+			        {
+			          "banco": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
 			        }
 			      ]
 			    },
-			    "openbanking_bronze_enablebanking_transactions.extracted_at": {
+			    "laboral_cuenta_transaccione.extracted_at": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "laboral_cuenta_transacciones",
@@ -298,11 +308,21 @@ cultureInfo es-ES
 			            "State": "Generated",
 			            "Weight": 0.7
 			          }
+			        },
+			        {
+			          "extrac": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
 			        }
 			      ],
 			      "SemanticType": "Time"
 			    },
-			    "openbanking_bronze_enablebanking_transactions.extracted_at.jerarquía_de_fecha": {
+			    "laboral_cuenta_transaccione.extracted_at.jerarquía_de_fecha": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "laboral_cuenta_transacciones",
@@ -320,7 +340,7 @@ cultureInfo es-ES
 			        }
 			      ]
 			    },
-			    "openbanking_bronze_enablebanking_transactions.extracted_at.año": {
+			    "laboral_cuenta_transaccione.extracted_at.año": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "laboral_cuenta_transacciones",
@@ -344,7 +364,7 @@ cultureInfo es-ES
 			        }
 			      ]
 			    },
-			    "openbanking_bronze_enablebanking_transactions.extracted_at.trimestre": {
+			    "laboral_cuenta_transaccione.extracted_at.trimestre": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "laboral_cuenta_transacciones",
@@ -368,7 +388,7 @@ cultureInfo es-ES
 			        }
 			      ]
 			    },
-			    "openbanking_bronze_enablebanking_transactions.extracted_at.me": {
+			    "laboral_cuenta_transaccione.extracted_at.me": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "laboral_cuenta_transacciones",
@@ -392,7 +412,7 @@ cultureInfo es-ES
 			        }
 			      ]
 			    },
-			    "openbanking_bronze_enablebanking_transactions.extracted_at.día": {
+			    "laboral_cuenta_transaccione.extracted_at.día": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "laboral_cuenta_transacciones",
@@ -416,7 +436,7 @@ cultureInfo es-ES
 			        }
 			      ]
 			    },
-			    "openbanking_bronze_enablebanking_transactions.page_number": {
+			    "laboral_cuenta_transaccione.page_number": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "laboral_cuenta_transacciones",
@@ -449,7 +469,7 @@ cultureInfo es-ES
 			        }
 			      ]
 			    },
-			    "openbanking_bronze_enablebanking_transactions.schema_version": {
+			    "laboral_cuenta_transaccione.schema_version": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "laboral_cuenta_transacciones",
@@ -578,7 +598,7 @@ cultureInfo es-ES
 			        }
 			      ]
 			    },
-			    "openbanking_bronze_enablebanking_transactions.transaction_json_transaction_amount_amount": {
+			    "laboral_cuenta_transaccione.transaction_json_transaction_amount_amount": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "laboral_cuenta_transacciones",
@@ -674,7 +694,7 @@ cultureInfo es-ES
 			        }
 			      ]
 			    },
-			    "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date": {
+			    "laboral_cuenta_transaccione.transaction_json_booking_date": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "laboral_cuenta_transacciones",
@@ -693,11 +713,21 @@ cultureInfo es-ES
 			            "State": "Generated",
 			            "Weight": 0.7
 			          }
+			        },
+			        {
+			          "fecha": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
 			        }
 			      ],
 			      "SemanticType": "Time"
 			    },
-			    "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.jerarquía_de_fecha": {
+			    "laboral_cuenta_transaccione.transaction_json_booking_date.jerarquía_de_fecha": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "laboral_cuenta_transacciones",
@@ -715,7 +745,7 @@ cultureInfo es-ES
 			        }
 			      ]
 			    },
-			    "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.año": {
+			    "laboral_cuenta_transaccione.transaction_json_booking_date.año": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "laboral_cuenta_transacciones",
@@ -739,7 +769,7 @@ cultureInfo es-ES
 			        }
 			      ]
 			    },
-			    "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.trimestre": {
+			    "laboral_cuenta_transaccione.transaction_json_booking_date.trimestre": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "laboral_cuenta_transacciones",
@@ -763,7 +793,7 @@ cultureInfo es-ES
 			        }
 			      ]
 			    },
-			    "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.me": {
+			    "laboral_cuenta_transaccione.transaction_json_booking_date.me": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "laboral_cuenta_transacciones",
@@ -787,7 +817,7 @@ cultureInfo es-ES
 			        }
 			      ]
 			    },
-			    "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.día": {
+			    "laboral_cuenta_transaccione.transaction_json_booking_date.día": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "laboral_cuenta_transacciones",
@@ -811,7 +841,7 @@ cultureInfo es-ES
 			        }
 			      ]
 			    },
-			    "openbanking_bronze_enablebanking_transactions.transaction_json_value_date": {
+			    "laboral_cuenta_transaccione.transaction_json_value_date": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "laboral_cuenta_transacciones",
@@ -834,7 +864,7 @@ cultureInfo es-ES
 			      ],
 			      "SemanticType": "Time"
 			    },
-			    "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.jerarquía_de_fecha": {
+			    "laboral_cuenta_transaccione.transaction_json_value_date.jerarquía_de_fecha": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "laboral_cuenta_transacciones",
@@ -852,7 +882,7 @@ cultureInfo es-ES
 			        }
 			      ]
 			    },
-			    "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.año": {
+			    "laboral_cuenta_transaccione.transaction_json_value_date.año": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "laboral_cuenta_transacciones",
@@ -876,7 +906,7 @@ cultureInfo es-ES
 			        }
 			      ]
 			    },
-			    "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.trimestre": {
+			    "laboral_cuenta_transaccione.transaction_json_value_date.trimestre": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "laboral_cuenta_transacciones",
@@ -900,7 +930,7 @@ cultureInfo es-ES
 			        }
 			      ]
 			    },
-			    "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.me": {
+			    "laboral_cuenta_transaccione.transaction_json_value_date.me": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "laboral_cuenta_transacciones",
@@ -924,7 +954,7 @@ cultureInfo es-ES
 			        }
 			      ]
 			    },
-			    "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.día": {
+			    "laboral_cuenta_transaccione.transaction_json_value_date.día": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "laboral_cuenta_transacciones",
@@ -948,7 +978,7 @@ cultureInfo es-ES
 			        }
 			      ]
 			    },
-			    "openbanking_bronze_enablebanking_transactions.transaction_json_remittance_information": {
+			    "laboral_cuenta_transaccione.transaction_json_remittance_information": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "laboral_cuenta_transacciones",
@@ -961,10 +991,20 @@ cultureInfo es-ES
 			          "transaction_json.remittance_information": {
 			            "State": "Generated"
 			          }
+			        },
+			        {
+			          "info": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
 			        }
 			      ]
 			    },
-			    "openbanking_bronze_enablebanking_transactions.transaction_json_credit_debit_indicator": {
+			    "laboral_cuenta_transaccione.transaction_json_credit_debit_indicator": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "laboral_cuenta_transacciones",
@@ -977,25 +1017,1030 @@ cultureInfo es-ES
 			          "transaction_json.credit_debit_indicator": {
 			            "State": "Generated"
 			          }
+			        },
+			        {
+			          "g/p": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "santander_cuenta_transaccione": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "santander_cuenta_transacciones"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "santander cuenta transaccione": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "santander_cuenta_transacciones": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "santander_cuenta_transaccione.transaction_position": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "santander_cuenta_transacciones",
+			          "ConceptualProperty": "transaction_position"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "transaction position": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "transaction_position": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "position": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "transaction location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "transaction situation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "situation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "transaction place": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "transaction site": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "transaction spot": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "transaction point": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "transaction station": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "place": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "santander_cuenta_transaccione.bank": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "santander_cuenta_transacciones",
+			          "ConceptualProperty": "bank"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "bank": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "series": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "set": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "row": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "tier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "array": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "panel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "depository": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "reservoir": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "collection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "store": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "santander_cuenta_transaccione.extracted_at": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "santander_cuenta_transacciones",
+			          "ConceptualProperty": "extracted_at"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "extracted at": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "extracted_at": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "santander_cuenta_transaccione.extracted_at.jerarquía_de_fecha": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "santander_cuenta_transacciones",
+			          "VariationSource": "extracted_at",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Jerarquía de fechas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "jerarquía de fecha": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "santander_cuenta_transaccione.extracted_at.año": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "santander_cuenta_transacciones",
+			          "VariationSource": "extracted_at",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Año"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "año": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "extracted at año": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "santander_cuenta_transaccione.extracted_at.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "santander_cuenta_transacciones",
+			          "VariationSource": "extracted_at",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "extracted at trimestre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "santander_cuenta_transaccione.extracted_at.me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "santander_cuenta_transacciones",
+			          "VariationSource": "extracted_at",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Mes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "me": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "extracted at me": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "santander_cuenta_transaccione.extracted_at.día": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "santander_cuenta_transacciones",
+			          "VariationSource": "extracted_at",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Día"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "día": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "extracted at día": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "santander_cuenta_transaccione.page_number": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "santander_cuenta_transacciones",
+			          "ConceptualProperty": "page_number"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "page number": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "page_number": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "page no": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "santander_cuenta_transaccione.schema_version": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "santander_cuenta_transacciones",
+			          "ConceptualProperty": "schema_version"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "schema version": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "schema_version": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "version": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "schema variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "schema form": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "schema type": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "schema kind": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "schema sort": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "schema style": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "form": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "type": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "kind": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "santander_cuenta_transaccione.transaction_json_transaction_amount_amount": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "santander_cuenta_transacciones",
+			          "ConceptualProperty": "transaction_json.transaction_amount.amount"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "transaction_json.transaction_amount.amount": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "transaction_json.transaction_amount. quantity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "transaction_json.transaction_amount. volume": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "transaction_json.transaction_amount. expanse": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "transaction_json.transaction_amount. extent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "transaction_json.transaction_amount. sum": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "transaction_json.transaction_amount. total": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "transaction_json.transaction_amount. aggregate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        }
+			      ]
+			    },
+			    "santander_cuenta_transaccione.transaction_json_credit_debit_indicator": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "santander_cuenta_transacciones",
+			          "ConceptualProperty": "transaction_json.credit_debit_indicator"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "transaction_json.credit_debit_indicator": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "G/P": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "santander_cuenta_transaccione.transaction_json_booking_date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "santander_cuenta_transacciones",
+			          "ConceptualProperty": "transaction_json.booking_date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "transaction_json.booking_date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "fecha": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "santander_cuenta_transaccione.transaction_json_booking_date.jerarquía_de_fecha": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "santander_cuenta_transacciones",
+			          "VariationSource": "transaction_json.booking_date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Jerarquía de fechas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "jerarquía de fecha": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "santander_cuenta_transaccione.transaction_json_booking_date.año": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "santander_cuenta_transacciones",
+			          "VariationSource": "transaction_json.booking_date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Año"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "año": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "transaction_json.booking_date año": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "santander_cuenta_transaccione.transaction_json_booking_date.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "santander_cuenta_transacciones",
+			          "VariationSource": "transaction_json.booking_date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "transaction_json.booking_date trimestre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "santander_cuenta_transaccione.transaction_json_booking_date.me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "santander_cuenta_transacciones",
+			          "VariationSource": "transaction_json.booking_date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Mes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "me": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "transaction_json.booking_date me": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "santander_cuenta_transaccione.transaction_json_booking_date.día": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "santander_cuenta_transacciones",
+			          "VariationSource": "transaction_json.booking_date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Día"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "día": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "transaction_json.booking_date día": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "santander_cuenta_transaccione.transaction_json_value_date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "santander_cuenta_transacciones",
+			          "ConceptualProperty": "transaction_json.value_date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "transaction_json.value_date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "santander_cuenta_transaccione.transaction_json_value_date.jerarquía_de_fecha": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "santander_cuenta_transacciones",
+			          "VariationSource": "transaction_json.value_date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Jerarquía de fechas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "jerarquía de fecha": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "santander_cuenta_transaccione.transaction_json_value_date.año": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "santander_cuenta_transacciones",
+			          "VariationSource": "transaction_json.value_date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Año"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "año": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "transaction_json.value_date año": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "santander_cuenta_transaccione.transaction_json_value_date.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "santander_cuenta_transacciones",
+			          "VariationSource": "transaction_json.value_date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "transaction_json.value_date trimestre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "santander_cuenta_transaccione.transaction_json_value_date.me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "santander_cuenta_transacciones",
+			          "VariationSource": "transaction_json.value_date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Mes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "me": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "transaction_json.value_date me": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "santander_cuenta_transaccione.transaction_json_value_date.día": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "santander_cuenta_transacciones",
+			          "VariationSource": "transaction_json.value_date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Día"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "día": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "transaction_json.value_date día": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "santander_cuenta_transaccione.transaction_json_remittance_information": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "santander_cuenta_transacciones",
+			          "ConceptualProperty": "transaction_json.remittance_information"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "transaction_json.remittance_information": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "info": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
 			        }
 			      ]
 			    }
 			  },
 			  "Relationships": {
-			    "openbanking_bronze_enablebanking_transactions_transaction_json_value_date_trimestre_has_openbanking_bronze_enablebanking_transactions_transaction_json_value_date_me": {
+			    "santander_cuenta_transaccione_transaction_json_value_date_año_has_santander_cuenta_transaccione_transaction_json_value_date_trimestre": {
 			      "Binding": {
-			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			        "ConceptualEntity": "santander_cuenta_transacciones"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.trimestre": {
+			        "santander_cuenta_transaccione.transaction_json_value_date.año": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.trimestre"
+			            "Entity": "santander_cuenta_transaccione.transaction_json_value_date.año"
 			          }
 			        },
-			        "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.me": {
+			        "santander_cuenta_transaccione.transaction_json_value_date.trimestre": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.me"
+			            "Entity": "santander_cuenta_transaccione.transaction_json_value_date.trimestre"
 			          }
 			        }
 			      },
@@ -1003,76 +2048,10 @@ cultureInfo es-ES
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.trimestre"
+			              "Role": "santander_cuenta_transaccione.transaction_json_value_date.año"
 			            },
 			            "Object": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.me"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "trimestres_have_me"
-			        },
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.me"
-			            },
-			            "Object": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.trimestre"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "me_have_trimestres"
-			        },
-			        {
-			          "Preposition": {
-			            "Subject": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.me"
-			            },
-			            "Prepositions": [
-			              {
-			                "in": {
-			                  "State": "Generated"
-			                }
-			              }
-			            ],
-			            "Object": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.trimestre"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "me_are_in_trimestres2"
-			        }
-			      ]
-			    },
-			    "openbanking_bronze_enablebanking_transactions_transaction_json_value_date_año_has_openbanking_bronze_enablebanking_transactions_transaction_json_value_date_trimestre": {
-			      "Binding": {
-			        "ConceptualEntity": "laboral_cuenta_transacciones"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.año": {
-			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.año"
-			          }
-			        },
-			        "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.trimestre": {
-			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.trimestre"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.año"
-			            },
-			            "Object": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.trimestre"
+			              "Role": "santander_cuenta_transaccione.transaction_json_value_date.trimestre"
 			            }
 			          },
 			          "State": "Generated",
@@ -1082,10 +2061,10 @@ cultureInfo es-ES
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.trimestre"
+			              "Role": "santander_cuenta_transaccione.transaction_json_value_date.trimestre"
 			            },
 			            "Object": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.año"
+			              "Role": "santander_cuenta_transaccione.transaction_json_value_date.año"
 			            }
 			          },
 			          "State": "Generated",
@@ -1095,7 +2074,7 @@ cultureInfo es-ES
 			        {
 			          "Preposition": {
 			            "Subject": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.trimestre"
+			              "Role": "santander_cuenta_transaccione.transaction_json_value_date.trimestre"
 			            },
 			            "Prepositions": [
 			              {
@@ -1105,29 +2084,29 @@ cultureInfo es-ES
 			              }
 			            ],
 			            "Object": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.año"
+			              "Role": "santander_cuenta_transaccione.transaction_json_value_date.año"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "trimestres_are_in_años2"
+			          "ID": "trimestres_are_in_años5"
 			        }
 			      ]
 			    },
-			    "openbanking_bronze_enablebanking_transactions_transaction_json_value_date_jerarquía_de_fecha_has_openbanking_bronze_enablebanking_transactions_transaction_json_value_date_día": {
+			    "santander_cuenta_transaccione_transaction_json_value_date_jerarquía_de_fecha_has_santander_cuenta_transaccione_transaction_json_value_date_día": {
 			      "Binding": {
-			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			        "ConceptualEntity": "santander_cuenta_transacciones"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.jerarquía_de_fecha": {
+			        "santander_cuenta_transaccione.transaction_json_value_date.jerarquía_de_fecha": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.jerarquía_de_fecha"
+			            "Entity": "santander_cuenta_transaccione.transaction_json_value_date.jerarquía_de_fecha"
 			          }
 			        },
-			        "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.día": {
+			        "santander_cuenta_transaccione.transaction_json_value_date.día": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.día"
+			            "Entity": "santander_cuenta_transaccione.transaction_json_value_date.día"
 			          }
 			        }
 			      },
@@ -1135,10 +2114,10 @@ cultureInfo es-ES
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.jerarquía_de_fecha"
+			              "Role": "santander_cuenta_transaccione.transaction_json_value_date.jerarquía_de_fecha"
 			            },
 			            "Object": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.día"
+			              "Role": "santander_cuenta_transaccione.transaction_json_value_date.día"
 			            }
 			          },
 			          "State": "Generated",
@@ -1147,20 +2126,20 @@ cultureInfo es-ES
 			        }
 			      ]
 			    },
-			    "openbanking_bronze_enablebanking_transactions_transaction_json_value_date_jerarquía_de_fecha_has_openbanking_bronze_enablebanking_transactions_transaction_json_value_date_me": {
+			    "santander_cuenta_transaccione_transaction_json_value_date_jerarquía_de_fecha_has_santander_cuenta_transaccione_transaction_json_value_date_me": {
 			      "Binding": {
-			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			        "ConceptualEntity": "santander_cuenta_transacciones"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.jerarquía_de_fecha": {
+			        "santander_cuenta_transaccione.transaction_json_value_date.jerarquía_de_fecha": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.jerarquía_de_fecha"
+			            "Entity": "santander_cuenta_transaccione.transaction_json_value_date.jerarquía_de_fecha"
 			          }
 			        },
-			        "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.me": {
+			        "santander_cuenta_transaccione.transaction_json_value_date.me": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.me"
+			            "Entity": "santander_cuenta_transaccione.transaction_json_value_date.me"
 			          }
 			        }
 			      },
@@ -1168,10 +2147,10 @@ cultureInfo es-ES
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.jerarquía_de_fecha"
+			              "Role": "santander_cuenta_transaccione.transaction_json_value_date.jerarquía_de_fecha"
 			            },
 			            "Object": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.me"
+			              "Role": "santander_cuenta_transaccione.transaction_json_value_date.me"
 			            }
 			          },
 			          "State": "Generated",
@@ -1180,20 +2159,20 @@ cultureInfo es-ES
 			        }
 			      ]
 			    },
-			    "openbanking_bronze_enablebanking_transactions_transaction_json_value_date_jerarquía_de_fecha_has_openbanking_bronze_enablebanking_transactions_transaction_json_value_date_trimestre": {
+			    "santander_cuenta_transaccione_transaction_json_value_date_jerarquía_de_fecha_has_santander_cuenta_transaccione_transaction_json_value_date_trimestre": {
 			      "Binding": {
-			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			        "ConceptualEntity": "santander_cuenta_transacciones"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.jerarquía_de_fecha": {
+			        "santander_cuenta_transaccione.transaction_json_value_date.jerarquía_de_fecha": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.jerarquía_de_fecha"
+			            "Entity": "santander_cuenta_transaccione.transaction_json_value_date.jerarquía_de_fecha"
 			          }
 			        },
-			        "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.trimestre": {
+			        "santander_cuenta_transaccione.transaction_json_value_date.trimestre": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.trimestre"
+			            "Entity": "santander_cuenta_transaccione.transaction_json_value_date.trimestre"
 			          }
 			        }
 			      },
@@ -1201,10 +2180,10 @@ cultureInfo es-ES
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.jerarquía_de_fecha"
+			              "Role": "santander_cuenta_transaccione.transaction_json_value_date.jerarquía_de_fecha"
 			            },
 			            "Object": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.trimestre"
+			              "Role": "santander_cuenta_transaccione.transaction_json_value_date.trimestre"
 			            }
 			          },
 			          "State": "Generated",
@@ -1213,20 +2192,20 @@ cultureInfo es-ES
 			        }
 			      ]
 			    },
-			    "openbanking_bronze_enablebanking_transactions_transaction_json_value_date_jerarquía_de_fecha_has_openbanking_bronze_enablebanking_transactions_transaction_json_value_date_año": {
+			    "santander_cuenta_transaccione_transaction_json_value_date_jerarquía_de_fecha_has_santander_cuenta_transaccione_transaction_json_value_date_año": {
 			      "Binding": {
-			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			        "ConceptualEntity": "santander_cuenta_transacciones"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.jerarquía_de_fecha": {
+			        "santander_cuenta_transaccione.transaction_json_value_date.jerarquía_de_fecha": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.jerarquía_de_fecha"
+			            "Entity": "santander_cuenta_transaccione.transaction_json_value_date.jerarquía_de_fecha"
 			          }
 			        },
-			        "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.año": {
+			        "santander_cuenta_transaccione.transaction_json_value_date.año": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.año"
+			            "Entity": "santander_cuenta_transaccione.transaction_json_value_date.año"
 			          }
 			        }
 			      },
@@ -1234,10 +2213,10 @@ cultureInfo es-ES
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.jerarquía_de_fecha"
+			              "Role": "santander_cuenta_transaccione.transaction_json_value_date.jerarquía_de_fecha"
 			            },
 			            "Object": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.año"
+			              "Role": "santander_cuenta_transaccione.transaction_json_value_date.año"
 			            }
 			          },
 			          "State": "Generated",
@@ -1246,20 +2225,20 @@ cultureInfo es-ES
 			        }
 			      ]
 			    },
-			    "openbanking_bronze_enablebanking_transactions_transaction_json_value_date_has_jerarquía_de_fecha": {
+			    "santander_cuenta_transaccione_transaction_json_value_date_has_jerarquía_de_fecha": {
 			      "Binding": {
-			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			        "ConceptualEntity": "santander_cuenta_transacciones"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "openbanking_bronze_enablebanking_transactions.transaction_json_value_date": {
+			        "santander_cuenta_transaccione.transaction_json_value_date": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date"
+			            "Entity": "santander_cuenta_transaccione.transaction_json_value_date"
 			          }
 			        },
-			        "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.jerarquía_de_fecha": {
+			        "santander_cuenta_transaccione.transaction_json_value_date.jerarquía_de_fecha": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.jerarquía_de_fecha"
+			            "Entity": "santander_cuenta_transaccione.transaction_json_value_date.jerarquía_de_fecha"
 			          }
 			        }
 			      },
@@ -1267,10 +2246,10 @@ cultureInfo es-ES
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date"
+			              "Role": "santander_cuenta_transaccione.transaction_json_value_date"
 			            },
 			            "Object": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.jerarquía_de_fecha"
+			              "Role": "santander_cuenta_transaccione.transaction_json_value_date.jerarquía_de_fecha"
 			            }
 			          },
 			          "State": "Generated",
@@ -1279,20 +2258,20 @@ cultureInfo es-ES
 			        }
 			      ]
 			    },
-			    "openbanking_bronze_enablebanking_transactions_transaction_json_booking_date_me_has_openbanking_bronze_enablebanking_transactions_transaction_json_booking_date_día": {
+			    "santander_cuenta_transaccione_transaction_json_booking_date_me_has_santander_cuenta_transaccione_transaction_json_booking_date_día": {
 			      "Binding": {
-			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			        "ConceptualEntity": "santander_cuenta_transacciones"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.me": {
+			        "santander_cuenta_transaccione.transaction_json_booking_date.me": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.me"
+			            "Entity": "santander_cuenta_transaccione.transaction_json_booking_date.me"
 			          }
 			        },
-			        "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.día": {
+			        "santander_cuenta_transaccione.transaction_json_booking_date.día": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.día"
+			            "Entity": "santander_cuenta_transaccione.transaction_json_booking_date.día"
 			          }
 			        }
 			      },
@@ -1300,10 +2279,10 @@ cultureInfo es-ES
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.me"
+			              "Role": "santander_cuenta_transaccione.transaction_json_booking_date.me"
 			            },
 			            "Object": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.día"
+			              "Role": "santander_cuenta_transaccione.transaction_json_booking_date.día"
 			            }
 			          },
 			          "State": "Generated",
@@ -1313,10 +2292,10 @@ cultureInfo es-ES
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.día"
+			              "Role": "santander_cuenta_transaccione.transaction_json_booking_date.día"
 			            },
 			            "Object": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.me"
+			              "Role": "santander_cuenta_transaccione.transaction_json_booking_date.me"
 			            }
 			          },
 			          "State": "Generated",
@@ -1326,7 +2305,7 @@ cultureInfo es-ES
 			        {
 			          "Preposition": {
 			            "Subject": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.día"
+			              "Role": "santander_cuenta_transaccione.transaction_json_booking_date.día"
 			            },
 			            "Prepositions": [
 			              {
@@ -1336,29 +2315,29 @@ cultureInfo es-ES
 			              }
 			            ],
 			            "Object": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.me"
+			              "Role": "santander_cuenta_transaccione.transaction_json_booking_date.me"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "días_are_in_me1"
+			          "ID": "días_are_in_me4"
 			        }
 			      ]
 			    },
-			    "openbanking_bronze_enablebanking_transactions_transaction_json_booking_date_trimestre_has_openbanking_bronze_enablebanking_transactions_transaction_json_booking_date_me": {
+			    "santander_cuenta_transaccione_transaction_json_booking_date_trimestre_has_santander_cuenta_transaccione_transaction_json_booking_date_me": {
 			      "Binding": {
-			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			        "ConceptualEntity": "santander_cuenta_transacciones"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.trimestre": {
+			        "santander_cuenta_transaccione.transaction_json_booking_date.trimestre": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.trimestre"
+			            "Entity": "santander_cuenta_transaccione.transaction_json_booking_date.trimestre"
 			          }
 			        },
-			        "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.me": {
+			        "santander_cuenta_transaccione.transaction_json_booking_date.me": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.me"
+			            "Entity": "santander_cuenta_transaccione.transaction_json_booking_date.me"
 			          }
 			        }
 			      },
@@ -1366,33 +2345,33 @@ cultureInfo es-ES
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.trimestre"
+			              "Role": "santander_cuenta_transaccione.transaction_json_booking_date.trimestre"
 			            },
 			            "Object": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.me"
+			              "Role": "santander_cuenta_transaccione.transaction_json_booking_date.me"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "trimestres_have_me1"
+			          "ID": "trimestres_have_me"
 			        },
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.me"
+			              "Role": "santander_cuenta_transaccione.transaction_json_booking_date.me"
 			            },
 			            "Object": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.trimestre"
+			              "Role": "santander_cuenta_transaccione.transaction_json_booking_date.trimestre"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "me_have_trimestres1"
+			          "ID": "me_have_trimestres"
 			        },
 			        {
 			          "Preposition": {
 			            "Subject": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.me"
+			              "Role": "santander_cuenta_transaccione.transaction_json_booking_date.me"
 			            },
 			            "Prepositions": [
 			              {
@@ -1402,29 +2381,29 @@ cultureInfo es-ES
 			              }
 			            ],
 			            "Object": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.trimestre"
+			              "Role": "santander_cuenta_transaccione.transaction_json_booking_date.trimestre"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "me_are_in_trimestres1"
+			          "ID": "me_are_in_trimestres4"
 			        }
 			      ]
 			    },
-			    "openbanking_bronze_enablebanking_transactions_transaction_json_booking_date_año_has_openbanking_bronze_enablebanking_transactions_transaction_json_booking_date_trimestre": {
+			    "santander_cuenta_transaccione_transaction_json_booking_date_año_has_santander_cuenta_transaccione_transaction_json_booking_date_trimestre": {
 			      "Binding": {
-			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			        "ConceptualEntity": "santander_cuenta_transacciones"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.año": {
+			        "santander_cuenta_transaccione.transaction_json_booking_date.año": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.año"
+			            "Entity": "santander_cuenta_transaccione.transaction_json_booking_date.año"
 			          }
 			        },
-			        "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.trimestre": {
+			        "santander_cuenta_transaccione.transaction_json_booking_date.trimestre": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.trimestre"
+			            "Entity": "santander_cuenta_transaccione.transaction_json_booking_date.trimestre"
 			          }
 			        }
 			      },
@@ -1432,10 +2411,10 @@ cultureInfo es-ES
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.año"
+			              "Role": "santander_cuenta_transaccione.transaction_json_booking_date.año"
 			            },
 			            "Object": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.trimestre"
+			              "Role": "santander_cuenta_transaccione.transaction_json_booking_date.trimestre"
 			            }
 			          },
 			          "State": "Generated",
@@ -1445,10 +2424,10 @@ cultureInfo es-ES
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.trimestre"
+			              "Role": "santander_cuenta_transaccione.transaction_json_booking_date.trimestre"
 			            },
 			            "Object": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.año"
+			              "Role": "santander_cuenta_transaccione.transaction_json_booking_date.año"
 			            }
 			          },
 			          "State": "Generated",
@@ -1458,7 +2437,7 @@ cultureInfo es-ES
 			        {
 			          "Preposition": {
 			            "Subject": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.trimestre"
+			              "Role": "santander_cuenta_transaccione.transaction_json_booking_date.trimestre"
 			            },
 			            "Prepositions": [
 			              {
@@ -1468,29 +2447,29 @@ cultureInfo es-ES
 			              }
 			            ],
 			            "Object": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.año"
+			              "Role": "santander_cuenta_transaccione.transaction_json_booking_date.año"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "trimestres_are_in_años1"
+			          "ID": "trimestres_are_in_años4"
 			        }
 			      ]
 			    },
-			    "openbanking_bronze_enablebanking_transactions_transaction_json_booking_date_jerarquía_de_fecha_has_openbanking_bronze_enablebanking_transactions_transaction_json_booking_date_día": {
+			    "santander_cuenta_transaccione_transaction_json_booking_date_jerarquía_de_fecha_has_santander_cuenta_transaccione_transaction_json_booking_date_día": {
 			      "Binding": {
-			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			        "ConceptualEntity": "santander_cuenta_transacciones"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.jerarquía_de_fecha": {
+			        "santander_cuenta_transaccione.transaction_json_booking_date.jerarquía_de_fecha": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.jerarquía_de_fecha"
+			            "Entity": "santander_cuenta_transaccione.transaction_json_booking_date.jerarquía_de_fecha"
 			          }
 			        },
-			        "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.día": {
+			        "santander_cuenta_transaccione.transaction_json_booking_date.día": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.día"
+			            "Entity": "santander_cuenta_transaccione.transaction_json_booking_date.día"
 			          }
 			        }
 			      },
@@ -1498,10 +2477,10 @@ cultureInfo es-ES
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.jerarquía_de_fecha"
+			              "Role": "santander_cuenta_transaccione.transaction_json_booking_date.jerarquía_de_fecha"
 			            },
 			            "Object": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.día"
+			              "Role": "santander_cuenta_transaccione.transaction_json_booking_date.día"
 			            }
 			          },
 			          "State": "Generated",
@@ -1510,20 +2489,20 @@ cultureInfo es-ES
 			        }
 			      ]
 			    },
-			    "openbanking_bronze_enablebanking_transactions_transaction_json_booking_date_jerarquía_de_fecha_has_openbanking_bronze_enablebanking_transactions_transaction_json_booking_date_me": {
+			    "santander_cuenta_transaccione_transaction_json_booking_date_jerarquía_de_fecha_has_santander_cuenta_transaccione_transaction_json_booking_date_me": {
 			      "Binding": {
-			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			        "ConceptualEntity": "santander_cuenta_transacciones"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.jerarquía_de_fecha": {
+			        "santander_cuenta_transaccione.transaction_json_booking_date.jerarquía_de_fecha": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.jerarquía_de_fecha"
+			            "Entity": "santander_cuenta_transaccione.transaction_json_booking_date.jerarquía_de_fecha"
 			          }
 			        },
-			        "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.me": {
+			        "santander_cuenta_transaccione.transaction_json_booking_date.me": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.me"
+			            "Entity": "santander_cuenta_transaccione.transaction_json_booking_date.me"
 			          }
 			        }
 			      },
@@ -1531,10 +2510,10 @@ cultureInfo es-ES
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.jerarquía_de_fecha"
+			              "Role": "santander_cuenta_transaccione.transaction_json_booking_date.jerarquía_de_fecha"
 			            },
 			            "Object": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.me"
+			              "Role": "santander_cuenta_transaccione.transaction_json_booking_date.me"
 			            }
 			          },
 			          "State": "Generated",
@@ -1543,20 +2522,20 @@ cultureInfo es-ES
 			        }
 			      ]
 			    },
-			    "openbanking_bronze_enablebanking_transactions_transaction_json_booking_date_jerarquía_de_fecha_has_openbanking_bronze_enablebanking_transactions_transaction_json_booking_date_trimestre": {
+			    "santander_cuenta_transaccione_transaction_json_booking_date_jerarquía_de_fecha_has_santander_cuenta_transaccione_transaction_json_booking_date_trimestre": {
 			      "Binding": {
-			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			        "ConceptualEntity": "santander_cuenta_transacciones"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.jerarquía_de_fecha": {
+			        "santander_cuenta_transaccione.transaction_json_booking_date.jerarquía_de_fecha": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.jerarquía_de_fecha"
+			            "Entity": "santander_cuenta_transaccione.transaction_json_booking_date.jerarquía_de_fecha"
 			          }
 			        },
-			        "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.trimestre": {
+			        "santander_cuenta_transaccione.transaction_json_booking_date.trimestre": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.trimestre"
+			            "Entity": "santander_cuenta_transaccione.transaction_json_booking_date.trimestre"
 			          }
 			        }
 			      },
@@ -1564,10 +2543,10 @@ cultureInfo es-ES
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.jerarquía_de_fecha"
+			              "Role": "santander_cuenta_transaccione.transaction_json_booking_date.jerarquía_de_fecha"
 			            },
 			            "Object": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.trimestre"
+			              "Role": "santander_cuenta_transaccione.transaction_json_booking_date.trimestre"
 			            }
 			          },
 			          "State": "Generated",
@@ -1576,20 +2555,20 @@ cultureInfo es-ES
 			        }
 			      ]
 			    },
-			    "openbanking_bronze_enablebanking_transactions_transaction_json_booking_date_jerarquía_de_fecha_has_openbanking_bronze_enablebanking_transactions_transaction_json_booking_date_año": {
+			    "santander_cuenta_transaccione_transaction_json_booking_date_jerarquía_de_fecha_has_santander_cuenta_transaccione_transaction_json_booking_date_año": {
 			      "Binding": {
-			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			        "ConceptualEntity": "santander_cuenta_transacciones"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.jerarquía_de_fecha": {
+			        "santander_cuenta_transaccione.transaction_json_booking_date.jerarquía_de_fecha": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.jerarquía_de_fecha"
+			            "Entity": "santander_cuenta_transaccione.transaction_json_booking_date.jerarquía_de_fecha"
 			          }
 			        },
-			        "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.año": {
+			        "santander_cuenta_transaccione.transaction_json_booking_date.año": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.año"
+			            "Entity": "santander_cuenta_transaccione.transaction_json_booking_date.año"
 			          }
 			        }
 			      },
@@ -1597,10 +2576,10 @@ cultureInfo es-ES
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.jerarquía_de_fecha"
+			              "Role": "santander_cuenta_transaccione.transaction_json_booking_date.jerarquía_de_fecha"
 			            },
 			            "Object": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.año"
+			              "Role": "santander_cuenta_transaccione.transaction_json_booking_date.año"
 			            }
 			          },
 			          "State": "Generated",
@@ -1609,20 +2588,20 @@ cultureInfo es-ES
 			        }
 			      ]
 			    },
-			    "openbanking_bronze_enablebanking_transactions_transaction_json_booking_date_has_jerarquía_de_fecha": {
+			    "santander_cuenta_transaccione_transaction_json_booking_date_has_jerarquía_de_fecha": {
 			      "Binding": {
-			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			        "ConceptualEntity": "santander_cuenta_transacciones"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date": {
+			        "santander_cuenta_transaccione.transaction_json_booking_date": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date"
+			            "Entity": "santander_cuenta_transaccione.transaction_json_booking_date"
 			          }
 			        },
-			        "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.jerarquía_de_fecha": {
+			        "santander_cuenta_transaccione.transaction_json_booking_date.jerarquía_de_fecha": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.jerarquía_de_fecha"
+			            "Entity": "santander_cuenta_transaccione.transaction_json_booking_date.jerarquía_de_fecha"
 			          }
 			        }
 			      },
@@ -1630,10 +2609,10 @@ cultureInfo es-ES
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date"
+			              "Role": "santander_cuenta_transaccione.transaction_json_booking_date"
 			            },
 			            "Object": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date.jerarquía_de_fecha"
+			              "Role": "santander_cuenta_transaccione.transaction_json_booking_date.jerarquía_de_fecha"
 			            }
 			          },
 			          "State": "Generated",
@@ -1642,20 +2621,20 @@ cultureInfo es-ES
 			        }
 			      ]
 			    },
-			    "openbanking_bronze_enablebanking_transactions_extracted_at_me_has_openbanking_bronze_enablebanking_transactions_extracted_at_día": {
+			    "santander_cuenta_transaccione_extracted_at_me_has_santander_cuenta_transaccione_extracted_at_día": {
 			      "Binding": {
-			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			        "ConceptualEntity": "santander_cuenta_transacciones"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "openbanking_bronze_enablebanking_transactions.extracted_at.me": {
+			        "santander_cuenta_transaccione.extracted_at.me": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.extracted_at.me"
+			            "Entity": "santander_cuenta_transaccione.extracted_at.me"
 			          }
 			        },
-			        "openbanking_bronze_enablebanking_transactions.extracted_at.día": {
+			        "santander_cuenta_transaccione.extracted_at.día": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.extracted_at.día"
+			            "Entity": "santander_cuenta_transaccione.extracted_at.día"
 			          }
 			        }
 			      },
@@ -1663,10 +2642,10 @@ cultureInfo es-ES
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at.me"
+			              "Role": "santander_cuenta_transaccione.extracted_at.me"
 			            },
 			            "Object": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at.día"
+			              "Role": "santander_cuenta_transaccione.extracted_at.día"
 			            }
 			          },
 			          "State": "Generated",
@@ -1676,10 +2655,10 @@ cultureInfo es-ES
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at.día"
+			              "Role": "santander_cuenta_transaccione.extracted_at.día"
 			            },
 			            "Object": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at.me"
+			              "Role": "santander_cuenta_transaccione.extracted_at.me"
 			            }
 			          },
 			          "State": "Generated",
@@ -1689,7 +2668,7 @@ cultureInfo es-ES
 			        {
 			          "Preposition": {
 			            "Subject": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at.día"
+			              "Role": "santander_cuenta_transaccione.extracted_at.día"
 			            },
 			            "Prepositions": [
 			              {
@@ -1699,29 +2678,29 @@ cultureInfo es-ES
 			              }
 			            ],
 			            "Object": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at.me"
+			              "Role": "santander_cuenta_transaccione.extracted_at.me"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "días_are_in_me"
+			          "ID": "días_are_in_me3"
 			        }
 			      ]
 			    },
-			    "openbanking_bronze_enablebanking_transactions_extracted_at_trimestre_has_openbanking_bronze_enablebanking_transactions_extracted_at_me": {
+			    "santander_cuenta_transaccione_extracted_at_trimestre_has_santander_cuenta_transaccione_extracted_at_me": {
 			      "Binding": {
-			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			        "ConceptualEntity": "santander_cuenta_transacciones"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "openbanking_bronze_enablebanking_transactions.extracted_at.trimestre": {
+			        "santander_cuenta_transaccione.extracted_at.trimestre": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.extracted_at.trimestre"
+			            "Entity": "santander_cuenta_transaccione.extracted_at.trimestre"
 			          }
 			        },
-			        "openbanking_bronze_enablebanking_transactions.extracted_at.me": {
+			        "santander_cuenta_transaccione.extracted_at.me": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.extracted_at.me"
+			            "Entity": "santander_cuenta_transaccione.extracted_at.me"
 			          }
 			        }
 			      },
@@ -1729,33 +2708,33 @@ cultureInfo es-ES
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at.trimestre"
+			              "Role": "santander_cuenta_transaccione.extracted_at.trimestre"
 			            },
 			            "Object": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at.me"
+			              "Role": "santander_cuenta_transaccione.extracted_at.me"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "trimestres_have_me2"
+			          "ID": "trimestres_have_me1"
 			        },
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at.me"
+			              "Role": "santander_cuenta_transaccione.extracted_at.me"
 			            },
 			            "Object": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at.trimestre"
+			              "Role": "santander_cuenta_transaccione.extracted_at.trimestre"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "me_have_trimestres2"
+			          "ID": "me_have_trimestres1"
 			        },
 			        {
 			          "Preposition": {
 			            "Subject": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at.me"
+			              "Role": "santander_cuenta_transaccione.extracted_at.me"
 			            },
 			            "Prepositions": [
 			              {
@@ -1765,29 +2744,29 @@ cultureInfo es-ES
 			              }
 			            ],
 			            "Object": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at.trimestre"
+			              "Role": "santander_cuenta_transaccione.extracted_at.trimestre"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "me_are_in_trimestres"
+			          "ID": "me_are_in_trimestres3"
 			        }
 			      ]
 			    },
-			    "openbanking_bronze_enablebanking_transactions_extracted_at_año_has_openbanking_bronze_enablebanking_transactions_extracted_at_trimestre": {
+			    "santander_cuenta_transaccione_extracted_at_año_has_santander_cuenta_transaccione_extracted_at_trimestre": {
 			      "Binding": {
-			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			        "ConceptualEntity": "santander_cuenta_transacciones"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "openbanking_bronze_enablebanking_transactions.extracted_at.año": {
+			        "santander_cuenta_transaccione.extracted_at.año": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.extracted_at.año"
+			            "Entity": "santander_cuenta_transaccione.extracted_at.año"
 			          }
 			        },
-			        "openbanking_bronze_enablebanking_transactions.extracted_at.trimestre": {
+			        "santander_cuenta_transaccione.extracted_at.trimestre": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.extracted_at.trimestre"
+			            "Entity": "santander_cuenta_transaccione.extracted_at.trimestre"
 			          }
 			        }
 			      },
@@ -1795,10 +2774,10 @@ cultureInfo es-ES
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at.año"
+			              "Role": "santander_cuenta_transaccione.extracted_at.año"
 			            },
 			            "Object": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at.trimestre"
+			              "Role": "santander_cuenta_transaccione.extracted_at.trimestre"
 			            }
 			          },
 			          "State": "Generated",
@@ -1808,10 +2787,10 @@ cultureInfo es-ES
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at.trimestre"
+			              "Role": "santander_cuenta_transaccione.extracted_at.trimestre"
 			            },
 			            "Object": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at.año"
+			              "Role": "santander_cuenta_transaccione.extracted_at.año"
 			            }
 			          },
 			          "State": "Generated",
@@ -1821,7 +2800,7 @@ cultureInfo es-ES
 			        {
 			          "Preposition": {
 			            "Subject": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at.trimestre"
+			              "Role": "santander_cuenta_transaccione.extracted_at.trimestre"
 			            },
 			            "Prepositions": [
 			              {
@@ -1831,29 +2810,29 @@ cultureInfo es-ES
 			              }
 			            ],
 			            "Object": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at.año"
+			              "Role": "santander_cuenta_transaccione.extracted_at.año"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "trimestres_are_in_años"
+			          "ID": "trimestres_are_in_años3"
 			        }
 			      ]
 			    },
-			    "openbanking_bronze_enablebanking_transactions_extracted_at_jerarquía_de_fecha_has_openbanking_bronze_enablebanking_transactions_extracted_at_día": {
+			    "santander_cuenta_transaccione_extracted_at_jerarquía_de_fecha_has_santander_cuenta_transaccione_extracted_at_día": {
 			      "Binding": {
-			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			        "ConceptualEntity": "santander_cuenta_transacciones"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "openbanking_bronze_enablebanking_transactions.extracted_at.jerarquía_de_fecha": {
+			        "santander_cuenta_transaccione.extracted_at.jerarquía_de_fecha": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.extracted_at.jerarquía_de_fecha"
+			            "Entity": "santander_cuenta_transaccione.extracted_at.jerarquía_de_fecha"
 			          }
 			        },
-			        "openbanking_bronze_enablebanking_transactions.extracted_at.día": {
+			        "santander_cuenta_transaccione.extracted_at.día": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.extracted_at.día"
+			            "Entity": "santander_cuenta_transaccione.extracted_at.día"
 			          }
 			        }
 			      },
@@ -1861,10 +2840,10 @@ cultureInfo es-ES
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at.jerarquía_de_fecha"
+			              "Role": "santander_cuenta_transaccione.extracted_at.jerarquía_de_fecha"
 			            },
 			            "Object": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at.día"
+			              "Role": "santander_cuenta_transaccione.extracted_at.día"
 			            }
 			          },
 			          "State": "Generated",
@@ -1873,20 +2852,20 @@ cultureInfo es-ES
 			        }
 			      ]
 			    },
-			    "openbanking_bronze_enablebanking_transactions_extracted_at_jerarquía_de_fecha_has_openbanking_bronze_enablebanking_transactions_extracted_at_me": {
+			    "santander_cuenta_transaccione_extracted_at_jerarquía_de_fecha_has_santander_cuenta_transaccione_extracted_at_me": {
 			      "Binding": {
-			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			        "ConceptualEntity": "santander_cuenta_transacciones"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "openbanking_bronze_enablebanking_transactions.extracted_at.jerarquía_de_fecha": {
+			        "santander_cuenta_transaccione.extracted_at.jerarquía_de_fecha": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.extracted_at.jerarquía_de_fecha"
+			            "Entity": "santander_cuenta_transaccione.extracted_at.jerarquía_de_fecha"
 			          }
 			        },
-			        "openbanking_bronze_enablebanking_transactions.extracted_at.me": {
+			        "santander_cuenta_transaccione.extracted_at.me": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.extracted_at.me"
+			            "Entity": "santander_cuenta_transaccione.extracted_at.me"
 			          }
 			        }
 			      },
@@ -1894,10 +2873,10 @@ cultureInfo es-ES
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at.jerarquía_de_fecha"
+			              "Role": "santander_cuenta_transaccione.extracted_at.jerarquía_de_fecha"
 			            },
 			            "Object": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at.me"
+			              "Role": "santander_cuenta_transaccione.extracted_at.me"
 			            }
 			          },
 			          "State": "Generated",
@@ -1906,20 +2885,20 @@ cultureInfo es-ES
 			        }
 			      ]
 			    },
-			    "openbanking_bronze_enablebanking_transactions_extracted_at_jerarquía_de_fecha_has_openbanking_bronze_enablebanking_transactions_extracted_at_trimestre": {
+			    "santander_cuenta_transaccione_extracted_at_jerarquía_de_fecha_has_santander_cuenta_transaccione_extracted_at_trimestre": {
 			      "Binding": {
-			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			        "ConceptualEntity": "santander_cuenta_transacciones"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "openbanking_bronze_enablebanking_transactions.extracted_at.jerarquía_de_fecha": {
+			        "santander_cuenta_transaccione.extracted_at.jerarquía_de_fecha": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.extracted_at.jerarquía_de_fecha"
+			            "Entity": "santander_cuenta_transaccione.extracted_at.jerarquía_de_fecha"
 			          }
 			        },
-			        "openbanking_bronze_enablebanking_transactions.extracted_at.trimestre": {
+			        "santander_cuenta_transaccione.extracted_at.trimestre": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.extracted_at.trimestre"
+			            "Entity": "santander_cuenta_transaccione.extracted_at.trimestre"
 			          }
 			        }
 			      },
@@ -1927,10 +2906,10 @@ cultureInfo es-ES
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at.jerarquía_de_fecha"
+			              "Role": "santander_cuenta_transaccione.extracted_at.jerarquía_de_fecha"
 			            },
 			            "Object": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at.trimestre"
+			              "Role": "santander_cuenta_transaccione.extracted_at.trimestre"
 			            }
 			          },
 			          "State": "Generated",
@@ -1939,20 +2918,20 @@ cultureInfo es-ES
 			        }
 			      ]
 			    },
-			    "openbanking_bronze_enablebanking_transactions_extracted_at_jerarquía_de_fecha_has_openbanking_bronze_enablebanking_transactions_extracted_at_año": {
+			    "santander_cuenta_transaccione_extracted_at_jerarquía_de_fecha_has_santander_cuenta_transaccione_extracted_at_año": {
 			      "Binding": {
-			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			        "ConceptualEntity": "santander_cuenta_transacciones"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "openbanking_bronze_enablebanking_transactions.extracted_at.jerarquía_de_fecha": {
+			        "santander_cuenta_transaccione.extracted_at.jerarquía_de_fecha": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.extracted_at.jerarquía_de_fecha"
+			            "Entity": "santander_cuenta_transaccione.extracted_at.jerarquía_de_fecha"
 			          }
 			        },
-			        "openbanking_bronze_enablebanking_transactions.extracted_at.año": {
+			        "santander_cuenta_transaccione.extracted_at.año": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.extracted_at.año"
+			            "Entity": "santander_cuenta_transaccione.extracted_at.año"
 			          }
 			        }
 			      },
@@ -1960,10 +2939,10 @@ cultureInfo es-ES
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at.jerarquía_de_fecha"
+			              "Role": "santander_cuenta_transaccione.extracted_at.jerarquía_de_fecha"
 			            },
 			            "Object": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at.año"
+			              "Role": "santander_cuenta_transaccione.extracted_at.año"
 			            }
 			          },
 			          "State": "Generated",
@@ -1972,20 +2951,20 @@ cultureInfo es-ES
 			        }
 			      ]
 			    },
-			    "openbanking_bronze_enablebanking_transactions_extracted_at_has_jerarquía_de_fecha": {
+			    "santander_cuenta_transaccione_extracted_at_has_jerarquía_de_fecha": {
 			      "Binding": {
-			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			        "ConceptualEntity": "santander_cuenta_transacciones"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "openbanking_bronze_enablebanking_transactions.extracted_at": {
+			        "santander_cuenta_transaccione.extracted_at": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.extracted_at"
+			            "Entity": "santander_cuenta_transaccione.extracted_at"
 			          }
 			        },
-			        "openbanking_bronze_enablebanking_transactions.extracted_at.jerarquía_de_fecha": {
+			        "santander_cuenta_transaccione.extracted_at.jerarquía_de_fecha": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.extracted_at.jerarquía_de_fecha"
+			            "Entity": "santander_cuenta_transaccione.extracted_at.jerarquía_de_fecha"
 			          }
 			        }
 			      },
@@ -1993,10 +2972,10 @@ cultureInfo es-ES
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at"
+			              "Role": "santander_cuenta_transaccione.extracted_at"
 			            },
 			            "Object": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at.jerarquía_de_fecha"
+			              "Role": "santander_cuenta_transaccione.extracted_at.jerarquía_de_fecha"
 			            }
 			          },
 			          "State": "Generated",
@@ -2005,20 +2984,20 @@ cultureInfo es-ES
 			        }
 			      ]
 			    },
-			    "openbanking_bronze_enablebanking_transactions_has_transaction_json_credit_debit_indicator": {
+			    "laboral_cuenta_transaccione_transaction_json_value_date_me_has_laboral_cuenta_transaccione_transaction_json_value_date_día": {
 			      "Binding": {
 			        "ConceptualEntity": "laboral_cuenta_transacciones"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "openbanking_bronze_enablebanking_transactions": {
+			        "laboral_cuenta_transaccione.transaction_json_value_date.me": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions"
+			            "Entity": "laboral_cuenta_transaccione.transaction_json_value_date.me"
 			          }
 			        },
-			        "openbanking_bronze_enablebanking_transactions.transaction_json_credit_debit_indicator": {
+			        "laboral_cuenta_transaccione.transaction_json_value_date.día": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_credit_debit_indicator"
+			            "Entity": "laboral_cuenta_transaccione.transaction_json_value_date.día"
 			          }
 			        }
 			      },
@@ -2026,32 +3005,65 @@ cultureInfo es-ES
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "openbanking_bronze_enablebanking_transactions"
+			              "Role": "laboral_cuenta_transaccione.transaction_json_value_date.me"
 			            },
 			            "Object": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_credit_debit_indicator"
+			              "Role": "laboral_cuenta_transaccione.transaction_json_value_date.día"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "openbanking_bronze_enablebanking_transactions_have_transaction_json_credit_debit_indicators"
+			          "ID": "me_have_días2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "laboral_cuenta_transaccione.transaction_json_value_date.día"
+			            },
+			            "Object": {
+			              "Role": "laboral_cuenta_transaccione.transaction_json_value_date.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "días_have_me2"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "laboral_cuenta_transaccione.transaction_json_value_date.día"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "laboral_cuenta_transaccione.transaction_json_value_date.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "días_are_in_me2"
 			        }
 			      ]
 			    },
-			    "openbanking_bronze_enablebanking_transactions_has_transaction_json_remittance_information": {
+			    "laboral_cuenta_transaccione_transaction_json_value_date_trimestre_has_laboral_cuenta_transaccione_transaction_json_value_date_me": {
 			      "Binding": {
 			        "ConceptualEntity": "laboral_cuenta_transacciones"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "openbanking_bronze_enablebanking_transactions": {
+			        "laboral_cuenta_transaccione.transaction_json_value_date.trimestre": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions"
+			            "Entity": "laboral_cuenta_transaccione.transaction_json_value_date.trimestre"
 			          }
 			        },
-			        "openbanking_bronze_enablebanking_transactions.transaction_json_remittance_information": {
+			        "laboral_cuenta_transaccione.transaction_json_value_date.me": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_remittance_information"
+			            "Entity": "laboral_cuenta_transaccione.transaction_json_value_date.me"
 			          }
 			        }
 			      },
@@ -2059,32 +3071,65 @@ cultureInfo es-ES
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "openbanking_bronze_enablebanking_transactions"
+			              "Role": "laboral_cuenta_transaccione.transaction_json_value_date.trimestre"
 			            },
 			            "Object": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_remittance_information"
+			              "Role": "laboral_cuenta_transaccione.transaction_json_value_date.me"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "openbanking_bronze_enablebanking_transactions_have_transaction_json_remittance_informations"
+			          "ID": "trimestres_have_me2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "laboral_cuenta_transaccione.transaction_json_value_date.me"
+			            },
+			            "Object": {
+			              "Role": "laboral_cuenta_transaccione.transaction_json_value_date.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_have_trimestres2"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "laboral_cuenta_transaccione.transaction_json_value_date.me"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "laboral_cuenta_transaccione.transaction_json_value_date.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_are_in_trimestres2"
 			        }
 			      ]
 			    },
-			    "openbanking_bronze_enablebanking_transactions_has_transaction_json_value_date": {
+			    "laboral_cuenta_transaccione_transaction_json_value_date_año_has_laboral_cuenta_transaccione_transaction_json_value_date_trimestre": {
 			      "Binding": {
 			        "ConceptualEntity": "laboral_cuenta_transacciones"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "openbanking_bronze_enablebanking_transactions": {
+			        "laboral_cuenta_transaccione.transaction_json_value_date.año": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions"
+			            "Entity": "laboral_cuenta_transaccione.transaction_json_value_date.año"
 			          }
 			        },
-			        "openbanking_bronze_enablebanking_transactions.transaction_json_value_date": {
+			        "laboral_cuenta_transaccione.transaction_json_value_date.trimestre": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date"
+			            "Entity": "laboral_cuenta_transaccione.transaction_json_value_date.trimestre"
 			          }
 			        }
 			      },
@@ -2092,32 +3137,65 @@ cultureInfo es-ES
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "openbanking_bronze_enablebanking_transactions"
+			              "Role": "laboral_cuenta_transaccione.transaction_json_value_date.año"
 			            },
 			            "Object": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date"
+			              "Role": "laboral_cuenta_transaccione.transaction_json_value_date.trimestre"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "openbanking_bronze_enablebanking_transactions_have_transaction_json_value_dates"
+			          "ID": "años_have_trimestres3"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "laboral_cuenta_transaccione.transaction_json_value_date.trimestre"
+			            },
+			            "Object": {
+			              "Role": "laboral_cuenta_transaccione.transaction_json_value_date.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_años3"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "laboral_cuenta_transaccione.transaction_json_value_date.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "laboral_cuenta_transaccione.transaction_json_value_date.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_años2"
 			        }
 			      ]
 			    },
-			    "openbanking_bronze_enablebanking_transactions_has_transaction_json_booking_date": {
+			    "laboral_cuenta_transaccione_transaction_json_value_date_jerarquía_de_fecha_has_laboral_cuenta_transaccione_transaction_json_value_date_día": {
 			      "Binding": {
 			        "ConceptualEntity": "laboral_cuenta_transacciones"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "openbanking_bronze_enablebanking_transactions": {
+			        "laboral_cuenta_transaccione.transaction_json_value_date.jerarquía_de_fecha": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions"
+			            "Entity": "laboral_cuenta_transaccione.transaction_json_value_date.jerarquía_de_fecha"
 			          }
 			        },
-			        "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date": {
+			        "laboral_cuenta_transaccione.transaction_json_value_date.día": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date"
+			            "Entity": "laboral_cuenta_transaccione.transaction_json_value_date.día"
 			          }
 			        }
 			      },
@@ -2125,32 +3203,32 @@ cultureInfo es-ES
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "openbanking_bronze_enablebanking_transactions"
+			              "Role": "laboral_cuenta_transaccione.transaction_json_value_date.jerarquía_de_fecha"
 			            },
 			            "Object": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_booking_date"
+			              "Role": "laboral_cuenta_transaccione.transaction_json_value_date.día"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "openbanking_bronze_enablebanking_transactions_have_transaction_json_booking_dates"
+			          "ID": "jerarquía_de_fechas_have_días3"
 			        }
 			      ]
 			    },
-			    "openbanking_bronze_enablebanking_transactions_has_transaction_json_transaction_amount_amount": {
+			    "laboral_cuenta_transaccione_transaction_json_value_date_jerarquía_de_fecha_has_laboral_cuenta_transaccione_transaction_json_value_date_me": {
 			      "Binding": {
 			        "ConceptualEntity": "laboral_cuenta_transacciones"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "openbanking_bronze_enablebanking_transactions": {
+			        "laboral_cuenta_transaccione.transaction_json_value_date.jerarquía_de_fecha": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions"
+			            "Entity": "laboral_cuenta_transaccione.transaction_json_value_date.jerarquía_de_fecha"
 			          }
 			        },
-			        "openbanking_bronze_enablebanking_transactions.transaction_json_transaction_amount_amount": {
+			        "laboral_cuenta_transaccione.transaction_json_value_date.me": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_transaction_amount_amount"
+			            "Entity": "laboral_cuenta_transaccione.transaction_json_value_date.me"
 			          }
 			        }
 			      },
@@ -2158,20 +3236,1010 @@ cultureInfo es-ES
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "openbanking_bronze_enablebanking_transactions"
+			              "Role": "laboral_cuenta_transaccione.transaction_json_value_date.jerarquía_de_fecha"
 			            },
 			            "Object": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_transaction_amount_amount"
+			              "Role": "laboral_cuenta_transaccione.transaction_json_value_date.me"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "openbanking_bronze_enablebanking_transactions_have_transaction_json_transaction_amount_amounts"
+			          "ID": "jerarquía_de_fechas_have_me3"
+			        }
+			      ]
+			    },
+			    "laboral_cuenta_transaccione_transaction_json_value_date_jerarquía_de_fecha_has_laboral_cuenta_transaccione_transaction_json_value_date_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "laboral_cuenta_transaccione.transaction_json_value_date.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione.transaction_json_value_date.jerarquía_de_fecha"
+			          }
+			        },
+			        "laboral_cuenta_transaccione.transaction_json_value_date.trimestre": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione.transaction_json_value_date.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "laboral_cuenta_transaccione.transaction_json_value_date.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "laboral_cuenta_transaccione.transaction_json_value_date.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_trimestres3"
+			        }
+			      ]
+			    },
+			    "laboral_cuenta_transaccione_transaction_json_value_date_jerarquía_de_fecha_has_laboral_cuenta_transaccione_transaction_json_value_date_año": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "laboral_cuenta_transaccione.transaction_json_value_date.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione.transaction_json_value_date.jerarquía_de_fecha"
+			          }
+			        },
+			        "laboral_cuenta_transaccione.transaction_json_value_date.año": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione.transaction_json_value_date.año"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "laboral_cuenta_transaccione.transaction_json_value_date.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "laboral_cuenta_transaccione.transaction_json_value_date.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_años3"
+			        }
+			      ]
+			    },
+			    "laboral_cuenta_transaccione_transaction_json_value_date_has_jerarquía_de_fecha": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "laboral_cuenta_transaccione.transaction_json_value_date": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione.transaction_json_value_date"
+			          }
+			        },
+			        "laboral_cuenta_transaccione.transaction_json_value_date.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione.transaction_json_value_date.jerarquía_de_fecha"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "laboral_cuenta_transaccione.transaction_json_value_date"
+			            },
+			            "Object": {
+			              "Role": "laboral_cuenta_transaccione.transaction_json_value_date.jerarquía_de_fecha"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "transaction_json_value_dates_have_jerarquía_de_fechas1"
+			        }
+			      ]
+			    },
+			    "laboral_cuenta_transaccione_transaction_json_booking_date_me_has_laboral_cuenta_transaccione_transaction_json_booking_date_día": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "laboral_cuenta_transaccione.transaction_json_booking_date.me": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione.transaction_json_booking_date.me"
+			          }
+			        },
+			        "laboral_cuenta_transaccione.transaction_json_booking_date.día": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione.transaction_json_booking_date.día"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "laboral_cuenta_transaccione.transaction_json_booking_date.me"
+			            },
+			            "Object": {
+			              "Role": "laboral_cuenta_transaccione.transaction_json_booking_date.día"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_have_días3"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "laboral_cuenta_transaccione.transaction_json_booking_date.día"
+			            },
+			            "Object": {
+			              "Role": "laboral_cuenta_transaccione.transaction_json_booking_date.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "días_have_me3"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "laboral_cuenta_transaccione.transaction_json_booking_date.día"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "laboral_cuenta_transaccione.transaction_json_booking_date.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "días_are_in_me1"
+			        }
+			      ]
+			    },
+			    "laboral_cuenta_transaccione_transaction_json_booking_date_trimestre_has_laboral_cuenta_transaccione_transaction_json_booking_date_me": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "laboral_cuenta_transaccione.transaction_json_booking_date.trimestre": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione.transaction_json_booking_date.trimestre"
+			          }
+			        },
+			        "laboral_cuenta_transaccione.transaction_json_booking_date.me": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione.transaction_json_booking_date.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "laboral_cuenta_transaccione.transaction_json_booking_date.trimestre"
+			            },
+			            "Object": {
+			              "Role": "laboral_cuenta_transaccione.transaction_json_booking_date.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_me3"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "laboral_cuenta_transaccione.transaction_json_booking_date.me"
+			            },
+			            "Object": {
+			              "Role": "laboral_cuenta_transaccione.transaction_json_booking_date.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_have_trimestres3"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "laboral_cuenta_transaccione.transaction_json_booking_date.me"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "laboral_cuenta_transaccione.transaction_json_booking_date.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_are_in_trimestres1"
+			        }
+			      ]
+			    },
+			    "laboral_cuenta_transaccione_transaction_json_booking_date_año_has_laboral_cuenta_transaccione_transaction_json_booking_date_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "laboral_cuenta_transaccione.transaction_json_booking_date.año": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione.transaction_json_booking_date.año"
+			          }
+			        },
+			        "laboral_cuenta_transaccione.transaction_json_booking_date.trimestre": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione.transaction_json_booking_date.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "laboral_cuenta_transaccione.transaction_json_booking_date.año"
+			            },
+			            "Object": {
+			              "Role": "laboral_cuenta_transaccione.transaction_json_booking_date.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "años_have_trimestres4"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "laboral_cuenta_transaccione.transaction_json_booking_date.trimestre"
+			            },
+			            "Object": {
+			              "Role": "laboral_cuenta_transaccione.transaction_json_booking_date.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_años4"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "laboral_cuenta_transaccione.transaction_json_booking_date.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "laboral_cuenta_transaccione.transaction_json_booking_date.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_años1"
+			        }
+			      ]
+			    },
+			    "laboral_cuenta_transaccione_transaction_json_booking_date_jerarquía_de_fecha_has_laboral_cuenta_transaccione_transaction_json_booking_date_día": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "laboral_cuenta_transaccione.transaction_json_booking_date.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione.transaction_json_booking_date.jerarquía_de_fecha"
+			          }
+			        },
+			        "laboral_cuenta_transaccione.transaction_json_booking_date.día": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione.transaction_json_booking_date.día"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "laboral_cuenta_transaccione.transaction_json_booking_date.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "laboral_cuenta_transaccione.transaction_json_booking_date.día"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_días4"
+			        }
+			      ]
+			    },
+			    "laboral_cuenta_transaccione_transaction_json_booking_date_jerarquía_de_fecha_has_laboral_cuenta_transaccione_transaction_json_booking_date_me": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "laboral_cuenta_transaccione.transaction_json_booking_date.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione.transaction_json_booking_date.jerarquía_de_fecha"
+			          }
+			        },
+			        "laboral_cuenta_transaccione.transaction_json_booking_date.me": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione.transaction_json_booking_date.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "laboral_cuenta_transaccione.transaction_json_booking_date.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "laboral_cuenta_transaccione.transaction_json_booking_date.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_me4"
+			        }
+			      ]
+			    },
+			    "laboral_cuenta_transaccione_transaction_json_booking_date_jerarquía_de_fecha_has_laboral_cuenta_transaccione_transaction_json_booking_date_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "laboral_cuenta_transaccione.transaction_json_booking_date.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione.transaction_json_booking_date.jerarquía_de_fecha"
+			          }
+			        },
+			        "laboral_cuenta_transaccione.transaction_json_booking_date.trimestre": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione.transaction_json_booking_date.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "laboral_cuenta_transaccione.transaction_json_booking_date.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "laboral_cuenta_transaccione.transaction_json_booking_date.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_trimestres4"
+			        }
+			      ]
+			    },
+			    "laboral_cuenta_transaccione_transaction_json_booking_date_jerarquía_de_fecha_has_laboral_cuenta_transaccione_transaction_json_booking_date_año": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "laboral_cuenta_transaccione.transaction_json_booking_date.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione.transaction_json_booking_date.jerarquía_de_fecha"
+			          }
+			        },
+			        "laboral_cuenta_transaccione.transaction_json_booking_date.año": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione.transaction_json_booking_date.año"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "laboral_cuenta_transaccione.transaction_json_booking_date.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "laboral_cuenta_transaccione.transaction_json_booking_date.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_años4"
+			        }
+			      ]
+			    },
+			    "laboral_cuenta_transaccione_transaction_json_booking_date_has_jerarquía_de_fecha": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "laboral_cuenta_transaccione.transaction_json_booking_date": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione.transaction_json_booking_date"
+			          }
+			        },
+			        "laboral_cuenta_transaccione.transaction_json_booking_date.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione.transaction_json_booking_date.jerarquía_de_fecha"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "laboral_cuenta_transaccione.transaction_json_booking_date"
+			            },
+			            "Object": {
+			              "Role": "laboral_cuenta_transaccione.transaction_json_booking_date.jerarquía_de_fecha"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "transaction_json_booking_dates_have_jerarquía_de_fechas1"
+			        }
+			      ]
+			    },
+			    "laboral_cuenta_transaccione_extracted_at_me_has_laboral_cuenta_transaccione_extracted_at_día": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "laboral_cuenta_transaccione.extracted_at.me": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione.extracted_at.me"
+			          }
+			        },
+			        "laboral_cuenta_transaccione.extracted_at.día": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione.extracted_at.día"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "laboral_cuenta_transaccione.extracted_at.me"
+			            },
+			            "Object": {
+			              "Role": "laboral_cuenta_transaccione.extracted_at.día"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_have_días4"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "laboral_cuenta_transaccione.extracted_at.día"
+			            },
+			            "Object": {
+			              "Role": "laboral_cuenta_transaccione.extracted_at.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "días_have_me4"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "laboral_cuenta_transaccione.extracted_at.día"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "laboral_cuenta_transaccione.extracted_at.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "días_are_in_me"
+			        }
+			      ]
+			    },
+			    "laboral_cuenta_transaccione_extracted_at_trimestre_has_laboral_cuenta_transaccione_extracted_at_me": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "laboral_cuenta_transaccione.extracted_at.trimestre": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione.extracted_at.trimestre"
+			          }
+			        },
+			        "laboral_cuenta_transaccione.extracted_at.me": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione.extracted_at.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "laboral_cuenta_transaccione.extracted_at.trimestre"
+			            },
+			            "Object": {
+			              "Role": "laboral_cuenta_transaccione.extracted_at.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_me4"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "laboral_cuenta_transaccione.extracted_at.me"
+			            },
+			            "Object": {
+			              "Role": "laboral_cuenta_transaccione.extracted_at.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_have_trimestres4"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "laboral_cuenta_transaccione.extracted_at.me"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "laboral_cuenta_transaccione.extracted_at.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_are_in_trimestres"
+			        }
+			      ]
+			    },
+			    "laboral_cuenta_transaccione_extracted_at_año_has_laboral_cuenta_transaccione_extracted_at_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "laboral_cuenta_transaccione.extracted_at.año": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione.extracted_at.año"
+			          }
+			        },
+			        "laboral_cuenta_transaccione.extracted_at.trimestre": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione.extracted_at.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "laboral_cuenta_transaccione.extracted_at.año"
+			            },
+			            "Object": {
+			              "Role": "laboral_cuenta_transaccione.extracted_at.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "años_have_trimestres5"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "laboral_cuenta_transaccione.extracted_at.trimestre"
+			            },
+			            "Object": {
+			              "Role": "laboral_cuenta_transaccione.extracted_at.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_años5"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "laboral_cuenta_transaccione.extracted_at.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "laboral_cuenta_transaccione.extracted_at.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_años"
+			        }
+			      ]
+			    },
+			    "laboral_cuenta_transaccione_extracted_at_jerarquía_de_fecha_has_laboral_cuenta_transaccione_extracted_at_día": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "laboral_cuenta_transaccione.extracted_at.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione.extracted_at.jerarquía_de_fecha"
+			          }
+			        },
+			        "laboral_cuenta_transaccione.extracted_at.día": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione.extracted_at.día"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "laboral_cuenta_transaccione.extracted_at.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "laboral_cuenta_transaccione.extracted_at.día"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_días5"
+			        }
+			      ]
+			    },
+			    "laboral_cuenta_transaccione_extracted_at_jerarquía_de_fecha_has_laboral_cuenta_transaccione_extracted_at_me": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "laboral_cuenta_transaccione.extracted_at.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione.extracted_at.jerarquía_de_fecha"
+			          }
+			        },
+			        "laboral_cuenta_transaccione.extracted_at.me": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione.extracted_at.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "laboral_cuenta_transaccione.extracted_at.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "laboral_cuenta_transaccione.extracted_at.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_me5"
+			        }
+			      ]
+			    },
+			    "laboral_cuenta_transaccione_extracted_at_jerarquía_de_fecha_has_laboral_cuenta_transaccione_extracted_at_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "laboral_cuenta_transaccione.extracted_at.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione.extracted_at.jerarquía_de_fecha"
+			          }
+			        },
+			        "laboral_cuenta_transaccione.extracted_at.trimestre": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione.extracted_at.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "laboral_cuenta_transaccione.extracted_at.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "laboral_cuenta_transaccione.extracted_at.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_trimestres5"
+			        }
+			      ]
+			    },
+			    "laboral_cuenta_transaccione_extracted_at_jerarquía_de_fecha_has_laboral_cuenta_transaccione_extracted_at_año": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "laboral_cuenta_transaccione.extracted_at.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione.extracted_at.jerarquía_de_fecha"
+			          }
+			        },
+			        "laboral_cuenta_transaccione.extracted_at.año": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione.extracted_at.año"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "laboral_cuenta_transaccione.extracted_at.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "laboral_cuenta_transaccione.extracted_at.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_años5"
+			        }
+			      ]
+			    },
+			    "laboral_cuenta_transaccione_extracted_at_has_jerarquía_de_fecha": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "laboral_cuenta_transaccione.extracted_at": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione.extracted_at"
+			          }
+			        },
+			        "laboral_cuenta_transaccione.extracted_at.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione.extracted_at.jerarquía_de_fecha"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "laboral_cuenta_transaccione.extracted_at"
+			            },
+			            "Object": {
+			              "Role": "laboral_cuenta_transaccione.extracted_at.jerarquía_de_fecha"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "extracted_at_have_jerarquía_de_fechas1"
+			        }
+			      ]
+			    },
+			    "santander_cuenta_transaccione_has_transaction_json_remittance_information": {
+			      "Binding": {
+			        "ConceptualEntity": "santander_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "santander_cuenta_transaccione": {
+			          "Target": {
+			            "Entity": "santander_cuenta_transaccione"
+			          }
+			        },
+			        "santander_cuenta_transaccione.transaction_json_remittance_information": {
+			          "Target": {
+			            "Entity": "santander_cuenta_transaccione.transaction_json_remittance_information"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "santander_cuenta_transaccione"
+			            },
+			            "Object": {
+			              "Role": "santander_cuenta_transaccione.transaction_json_remittance_information"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "santander_cuenta_transacciones_have_transaction_json_remittance_informations"
+			        }
+			      ]
+			    },
+			    "santander_cuenta_transaccione_has_transaction_json_value_date": {
+			      "Binding": {
+			        "ConceptualEntity": "santander_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "santander_cuenta_transaccione": {
+			          "Target": {
+			            "Entity": "santander_cuenta_transaccione"
+			          }
+			        },
+			        "santander_cuenta_transaccione.transaction_json_value_date": {
+			          "Target": {
+			            "Entity": "santander_cuenta_transaccione.transaction_json_value_date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "santander_cuenta_transaccione"
+			            },
+			            "Object": {
+			              "Role": "santander_cuenta_transaccione.transaction_json_value_date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "santander_cuenta_transacciones_have_transaction_json_value_dates"
+			        }
+			      ]
+			    },
+			    "santander_cuenta_transaccione_has_transaction_json_booking_date": {
+			      "Binding": {
+			        "ConceptualEntity": "santander_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "santander_cuenta_transaccione": {
+			          "Target": {
+			            "Entity": "santander_cuenta_transaccione"
+			          }
+			        },
+			        "santander_cuenta_transaccione.transaction_json_booking_date": {
+			          "Target": {
+			            "Entity": "santander_cuenta_transaccione.transaction_json_booking_date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "santander_cuenta_transaccione"
+			            },
+			            "Object": {
+			              "Role": "santander_cuenta_transaccione.transaction_json_booking_date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "santander_cuenta_transacciones_have_transaction_json_booking_dates"
+			        }
+			      ]
+			    },
+			    "santander_cuenta_transaccione_has_transaction_json_credit_debit_indicator": {
+			      "Binding": {
+			        "ConceptualEntity": "santander_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "santander_cuenta_transaccione": {
+			          "Target": {
+			            "Entity": "santander_cuenta_transaccione"
+			          }
+			        },
+			        "santander_cuenta_transaccione.transaction_json_credit_debit_indicator": {
+			          "Target": {
+			            "Entity": "santander_cuenta_transaccione.transaction_json_credit_debit_indicator"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "santander_cuenta_transaccione"
+			            },
+			            "Object": {
+			              "Role": "santander_cuenta_transaccione.transaction_json_credit_debit_indicator"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "santander_cuenta_transacciones_have_transaction_json_credit_debit_indicators"
+			        }
+			      ]
+			    },
+			    "santander_cuenta_transaccione_has_transaction_json_transaction_amount_amount": {
+			      "Binding": {
+			        "ConceptualEntity": "santander_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "santander_cuenta_transaccione": {
+			          "Target": {
+			            "Entity": "santander_cuenta_transaccione"
+			          }
+			        },
+			        "santander_cuenta_transaccione.transaction_json_transaction_amount_amount": {
+			          "Target": {
+			            "Entity": "santander_cuenta_transaccione.transaction_json_transaction_amount_amount"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "santander_cuenta_transaccione"
+			            },
+			            "Object": {
+			              "Role": "santander_cuenta_transaccione.transaction_json_transaction_amount_amount"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "santander_cuenta_transacciones_have_transaction_json_transaction_amount_amounts"
 			        },
 			        {
 			          "Adjective": {
 			            "Subject": {
-			              "Role": "openbanking_bronze_enablebanking_transactions"
+			              "Role": "santander_cuenta_transaccione"
 			            },
 			            "Adjectives": [
 			              {
@@ -2188,29 +4256,29 @@ cultureInfo es-ES
 			              }
 			            ],
 			            "Measurement": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_transaction_amount_amount"
+			              "Role": "santander_cuenta_transaccione.transaction_json_transaction_amount_amount"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "transaction_json_transaction_amount_amount_indicates_how_expensive_openbanking_bronze_enablebanking_transactions_are"
+			          "ID": "transaction_json_transaction_amount_amount_indicates_how_expensive_santander_cuenta_transacciones_are"
 			        }
 			      ]
 			    },
-			    "openbanking_bronze_enablebanking_transactions_has_schema_version": {
+			    "santander_cuenta_transaccione_has_schema_version": {
 			      "Binding": {
-			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			        "ConceptualEntity": "santander_cuenta_transacciones"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "openbanking_bronze_enablebanking_transactions": {
+			        "santander_cuenta_transaccione": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions"
+			            "Entity": "santander_cuenta_transaccione"
 			          }
 			        },
-			        "openbanking_bronze_enablebanking_transactions.schema_version": {
+			        "santander_cuenta_transaccione.schema_version": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.schema_version"
+			            "Entity": "santander_cuenta_transaccione.schema_version"
 			          }
 			        }
 			      },
@@ -2218,32 +4286,32 @@ cultureInfo es-ES
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "openbanking_bronze_enablebanking_transactions"
+			              "Role": "santander_cuenta_transaccione"
 			            },
 			            "Object": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.schema_version"
+			              "Role": "santander_cuenta_transaccione.schema_version"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "openbanking_bronze_enablebanking_transactions_have_schema_versions"
+			          "ID": "santander_cuenta_transacciones_have_schema_versions"
 			        }
 			      ]
 			    },
-			    "openbanking_bronze_enablebanking_transactions_has_page_number": {
+			    "santander_cuenta_transaccione_has_page_number": {
 			      "Binding": {
-			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			        "ConceptualEntity": "santander_cuenta_transacciones"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "openbanking_bronze_enablebanking_transactions": {
+			        "santander_cuenta_transaccione": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions"
+			            "Entity": "santander_cuenta_transaccione"
 			          }
 			        },
-			        "openbanking_bronze_enablebanking_transactions.page_number": {
+			        "santander_cuenta_transaccione.page_number": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.page_number"
+			            "Entity": "santander_cuenta_transaccione.page_number"
 			          }
 			        }
 			      },
@@ -2251,32 +4319,32 @@ cultureInfo es-ES
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "openbanking_bronze_enablebanking_transactions"
+			              "Role": "santander_cuenta_transaccione"
 			            },
 			            "Object": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.page_number"
+			              "Role": "santander_cuenta_transaccione.page_number"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "openbanking_bronze_enablebanking_transactions_have_page_numbers"
+			          "ID": "santander_cuenta_transacciones_have_page_numbers"
 			        }
 			      ]
 			    },
-			    "openbanking_bronze_enablebanking_transactions_has_extracted_at": {
+			    "santander_cuenta_transaccione_has_extracted_at": {
 			      "Binding": {
-			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			        "ConceptualEntity": "santander_cuenta_transacciones"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "openbanking_bronze_enablebanking_transactions": {
+			        "santander_cuenta_transaccione": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions"
+			            "Entity": "santander_cuenta_transaccione"
 			          }
 			        },
-			        "openbanking_bronze_enablebanking_transactions.extracted_at": {
+			        "santander_cuenta_transaccione.extracted_at": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.extracted_at"
+			            "Entity": "santander_cuenta_transaccione.extracted_at"
 			          }
 			        }
 			      },
@@ -2284,32 +4352,32 @@ cultureInfo es-ES
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "openbanking_bronze_enablebanking_transactions"
+			              "Role": "santander_cuenta_transaccione"
 			            },
 			            "Object": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.extracted_at"
+			              "Role": "santander_cuenta_transaccione.extracted_at"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "openbanking_bronze_enablebanking_transactions_have_extracted_at"
+			          "ID": "santander_cuenta_transacciones_have_extracted_at"
 			        }
 			      ]
 			    },
-			    "openbanking_bronze_enablebanking_transactions_has_bank": {
+			    "santander_cuenta_transaccione_has_bank": {
 			      "Binding": {
-			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			        "ConceptualEntity": "santander_cuenta_transacciones"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "openbanking_bronze_enablebanking_transactions": {
+			        "santander_cuenta_transaccione": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions"
+			            "Entity": "santander_cuenta_transaccione"
 			          }
 			        },
-			        "openbanking_bronze_enablebanking_transactions.bank": {
+			        "santander_cuenta_transaccione.bank": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.bank"
+			            "Entity": "santander_cuenta_transaccione.bank"
 			          }
 			        }
 			      },
@@ -2317,32 +4385,32 @@ cultureInfo es-ES
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "openbanking_bronze_enablebanking_transactions"
+			              "Role": "santander_cuenta_transaccione"
 			            },
 			            "Object": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.bank"
+			              "Role": "santander_cuenta_transaccione.bank"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "openbanking_bronze_enablebanking_transactions_have_banks"
+			          "ID": "santander_cuenta_transacciones_have_banks"
 			        }
 			      ]
 			    },
-			    "openbanking_bronze_enablebanking_transactions_has_transaction_position": {
+			    "santander_cuenta_transaccione_has_transaction_position": {
 			      "Binding": {
-			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			        "ConceptualEntity": "santander_cuenta_transacciones"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "openbanking_bronze_enablebanking_transactions": {
+			        "santander_cuenta_transaccione": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions"
+			            "Entity": "santander_cuenta_transaccione"
 			          }
 			        },
-			        "openbanking_bronze_enablebanking_transactions.transaction_position": {
+			        "santander_cuenta_transaccione.transaction_position": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_position"
+			            "Entity": "santander_cuenta_transaccione.transaction_position"
 			          }
 			        }
 			      },
@@ -2350,38 +4418,395 @@ cultureInfo es-ES
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "openbanking_bronze_enablebanking_transactions"
+			              "Role": "santander_cuenta_transaccione"
 			            },
 			            "Object": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_position"
+			              "Role": "santander_cuenta_transaccione.transaction_position"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "openbanking_bronze_enablebanking_transactions_have_transaction_positions"
+			          "ID": "santander_cuenta_transacciones_have_transaction_positions"
 			        }
 			      ]
 			    },
-			    "openbanking_bronze_enablebanking_transactions_is_extracted_on_extracted_at": {
+			    "laboral_cuenta_transaccione_has_transaction_json_credit_debit_indicator": {
 			      "Binding": {
 			        "ConceptualEntity": "laboral_cuenta_transacciones"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "openbanking_bronze_enablebanking_transactions": {
+			        "laboral_cuenta_transaccione": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions"
+			            "Entity": "laboral_cuenta_transaccione"
 			          }
 			        },
-			        "openbanking_bronze_enablebanking_transactions.extracted_at": {
+			        "laboral_cuenta_transaccione.transaction_json_credit_debit_indicator": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.extracted_at"
+			            "Entity": "laboral_cuenta_transaccione.transaction_json_credit_debit_indicator"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "laboral_cuenta_transaccione"
+			            },
+			            "Object": {
+			              "Role": "laboral_cuenta_transaccione.transaction_json_credit_debit_indicator"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "laboral_cuenta_transacciones_have_transaction_json_credit_debit_indicators"
+			        }
+			      ]
+			    },
+			    "laboral_cuenta_transaccione_has_transaction_json_remittance_information": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "laboral_cuenta_transaccione": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione"
+			          }
+			        },
+			        "laboral_cuenta_transaccione.transaction_json_remittance_information": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione.transaction_json_remittance_information"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "laboral_cuenta_transaccione"
+			            },
+			            "Object": {
+			              "Role": "laboral_cuenta_transaccione.transaction_json_remittance_information"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "laboral_cuenta_transacciones_have_transaction_json_remittance_informations"
+			        }
+			      ]
+			    },
+			    "laboral_cuenta_transaccione_has_transaction_json_value_date": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "laboral_cuenta_transaccione": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione"
+			          }
+			        },
+			        "laboral_cuenta_transaccione.transaction_json_value_date": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione.transaction_json_value_date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "laboral_cuenta_transaccione"
+			            },
+			            "Object": {
+			              "Role": "laboral_cuenta_transaccione.transaction_json_value_date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "laboral_cuenta_transacciones_have_transaction_json_value_dates"
+			        }
+			      ]
+			    },
+			    "laboral_cuenta_transaccione_has_transaction_json_booking_date": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "laboral_cuenta_transaccione": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione"
+			          }
+			        },
+			        "laboral_cuenta_transaccione.transaction_json_booking_date": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione.transaction_json_booking_date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "laboral_cuenta_transaccione"
+			            },
+			            "Object": {
+			              "Role": "laboral_cuenta_transaccione.transaction_json_booking_date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "laboral_cuenta_transacciones_have_transaction_json_booking_dates"
+			        }
+			      ]
+			    },
+			    "laboral_cuenta_transaccione_has_transaction_json_transaction_amount_amount": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "laboral_cuenta_transaccione": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione"
+			          }
+			        },
+			        "laboral_cuenta_transaccione.transaction_json_transaction_amount_amount": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione.transaction_json_transaction_amount_amount"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "laboral_cuenta_transaccione"
+			            },
+			            "Object": {
+			              "Role": "laboral_cuenta_transaccione.transaction_json_transaction_amount_amount"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "laboral_cuenta_transacciones_have_transaction_json_transaction_amount_amounts"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "laboral_cuenta_transaccione"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "laboral_cuenta_transaccione.transaction_json_transaction_amount_amount"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "transaction_json_transaction_amount_amount_indicates_how_expensive_laboral_cuenta_transacciones_are"
+			        }
+			      ]
+			    },
+			    "laboral_cuenta_transaccione_has_schema_version": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "laboral_cuenta_transaccione": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione"
+			          }
+			        },
+			        "laboral_cuenta_transaccione.schema_version": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione.schema_version"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "laboral_cuenta_transaccione"
+			            },
+			            "Object": {
+			              "Role": "laboral_cuenta_transaccione.schema_version"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "laboral_cuenta_transacciones_have_schema_versions"
+			        }
+			      ]
+			    },
+			    "laboral_cuenta_transaccione_has_page_number": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "laboral_cuenta_transaccione": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione"
+			          }
+			        },
+			        "laboral_cuenta_transaccione.page_number": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione.page_number"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "laboral_cuenta_transaccione"
+			            },
+			            "Object": {
+			              "Role": "laboral_cuenta_transaccione.page_number"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "laboral_cuenta_transacciones_have_page_numbers"
+			        }
+			      ]
+			    },
+			    "laboral_cuenta_transaccione_has_extracted_at": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "laboral_cuenta_transaccione": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione"
+			          }
+			        },
+			        "laboral_cuenta_transaccione.extracted_at": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione.extracted_at"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "laboral_cuenta_transaccione"
+			            },
+			            "Object": {
+			              "Role": "laboral_cuenta_transaccione.extracted_at"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "laboral_cuenta_transacciones_have_extracted_at"
+			        }
+			      ]
+			    },
+			    "laboral_cuenta_transaccione_has_bank": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "laboral_cuenta_transaccione": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione"
+			          }
+			        },
+			        "laboral_cuenta_transaccione.bank": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione.bank"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "laboral_cuenta_transaccione"
+			            },
+			            "Object": {
+			              "Role": "laboral_cuenta_transaccione.bank"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "laboral_cuenta_transacciones_have_banks"
+			        }
+			      ]
+			    },
+			    "laboral_cuenta_transaccione_has_transaction_position": {
+			      "Binding": {
+			        "ConceptualEntity": "laboral_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "laboral_cuenta_transaccione": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione"
+			          }
+			        },
+			        "laboral_cuenta_transaccione.transaction_position": {
+			          "Target": {
+			            "Entity": "laboral_cuenta_transaccione.transaction_position"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "laboral_cuenta_transaccione"
+			            },
+			            "Object": {
+			              "Role": "laboral_cuenta_transaccione.transaction_position"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "laboral_cuenta_transacciones_have_transaction_positions"
+			        }
+			      ]
+			    },
+			    "santander_cuenta_transaccione_is_extracted_on_extracted_at": {
+			      "Binding": {
+			        "ConceptualEntity": "santander_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "santander_cuenta_transaccione": {
+			          "Target": {
+			            "Entity": "santander_cuenta_transaccione"
+			          }
+			        },
+			        "santander_cuenta_transaccione.extracted_at": {
+			          "Target": {
+			            "Entity": "santander_cuenta_transaccione.extracted_at"
 			          }
 			        }
 			      },
 			      "SemanticSlots": {
 			        "When": {
-			          "Role": "openbanking_bronze_enablebanking_transactions.extracted_at"
+			          "Role": "santander_cuenta_transaccione.extracted_at"
 			        }
 			      },
 			      "Phrasings": [
@@ -2395,29 +4820,71 @@ cultureInfo es-ES
 			              }
 			            ],
 			            "Object": {
-			              "Role": "openbanking_bronze_enablebanking_transactions"
+			              "Role": "santander_cuenta_transaccione"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.9,
-			          "ID": "openbanking_bronze_enablebanking_transactions_are_extracted_on_extracted_at"
+			          "ID": "santander_cuenta_transacciones_are_extracted_on_extracted_at"
 			        }
 			      ]
 			    },
-			    "openbanking_bronze_enablebanking_transactions_transaction_json_value_date_me_has_openbanking_bronze_enablebanking_transactions_transaction_json_value_date_día": {
+			    "laboral_cuenta_transaccione_is_extracted_on_extracted_at": {
 			      "Binding": {
 			        "ConceptualEntity": "laboral_cuenta_transacciones"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.me": {
+			        "laboral_cuenta_transaccione": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.me"
+			            "Entity": "laboral_cuenta_transaccione"
 			          }
 			        },
-			        "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.día": {
+			        "laboral_cuenta_transaccione.extracted_at": {
 			          "Target": {
-			            "Entity": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.día"
+			            "Entity": "laboral_cuenta_transaccione.extracted_at"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "When": {
+			          "Role": "laboral_cuenta_transaccione.extracted_at"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "extract": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "laboral_cuenta_transaccione"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.9,
+			          "ID": "laboral_cuenta_transacciones_are_extracted_on_extracted_at"
+			        }
+			      ]
+			    },
+			    "santander_cuenta_transaccione_transaction_json_value_date_trimestre_has_santander_cuenta_transaccione_transaction_json_value_date_me": {
+			      "Binding": {
+			        "ConceptualEntity": "santander_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "santander_cuenta_transaccione.transaction_json_value_date.trimestre": {
+			          "Target": {
+			            "Entity": "santander_cuenta_transaccione.transaction_json_value_date.trimestre"
+			          }
+			        },
+			        "santander_cuenta_transaccione.transaction_json_value_date.me": {
+			          "Target": {
+			            "Entity": "santander_cuenta_transaccione.transaction_json_value_date.me"
 			          }
 			        }
 			      },
@@ -2425,33 +4892,33 @@ cultureInfo es-ES
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.me"
+			              "Role": "santander_cuenta_transaccione.transaction_json_value_date.trimestre"
 			            },
 			            "Object": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.día"
+			              "Role": "santander_cuenta_transaccione.transaction_json_value_date.me"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "me_have_días2"
+			          "ID": "trimestres_have_me5"
 			        },
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.día"
+			              "Role": "santander_cuenta_transaccione.transaction_json_value_date.me"
 			            },
 			            "Object": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.me"
+			              "Role": "santander_cuenta_transaccione.transaction_json_value_date.trimestre"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "días_have_me2"
+			          "ID": "me_have_trimestres5"
 			        },
 			        {
 			          "Preposition": {
 			            "Subject": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.día"
+			              "Role": "santander_cuenta_transaccione.transaction_json_value_date.me"
 			            },
 			            "Prepositions": [
 			              {
@@ -2461,12 +4928,78 @@ cultureInfo es-ES
 			              }
 			            ],
 			            "Object": {
-			              "Role": "openbanking_bronze_enablebanking_transactions.transaction_json_value_date.me"
+			              "Role": "santander_cuenta_transaccione.transaction_json_value_date.trimestre"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "días_are_in_me2"
+			          "ID": "me_are_in_trimestres5"
+			        }
+			      ]
+			    },
+			    "santander_cuenta_transaccione_transaction_json_value_date_me_has_santander_cuenta_transaccione_transaction_json_value_date_día": {
+			      "Binding": {
+			        "ConceptualEntity": "santander_cuenta_transacciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "santander_cuenta_transaccione.transaction_json_value_date.me": {
+			          "Target": {
+			            "Entity": "santander_cuenta_transaccione.transaction_json_value_date.me"
+			          }
+			        },
+			        "santander_cuenta_transaccione.transaction_json_value_date.día": {
+			          "Target": {
+			            "Entity": "santander_cuenta_transaccione.transaction_json_value_date.día"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "santander_cuenta_transaccione.transaction_json_value_date.me"
+			            },
+			            "Object": {
+			              "Role": "santander_cuenta_transaccione.transaction_json_value_date.día"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_have_días5"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "santander_cuenta_transaccione.transaction_json_value_date.día"
+			            },
+			            "Object": {
+			              "Role": "santander_cuenta_transaccione.transaction_json_value_date.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "días_have_me5"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "santander_cuenta_transaccione.transaction_json_value_date.día"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "santander_cuenta_transaccione.transaction_json_value_date.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "días_are_in_me5"
 			        }
 			      ]
 			    }
