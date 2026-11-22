@@ -1,0 +1,134 @@
+table laboral_cuenta_transacciones
+	lineageTag: e311ad32-3333-4e54-80fa-2fbee1138055
+
+	column transaction_position
+		dataType: int64
+		formatString: 0
+		lineageTag: d82137ea-270a-41bc-b13f-84490b93c96c
+		summarizeBy: sum
+		sourceColumn: transaction_position
+
+		annotation SummarizationSetBy = Automatic
+
+	column bank
+		dataType: string
+		lineageTag: bfae211c-5cfa-4350-8776-532f5fb53d2f
+		summarizeBy: none
+		sourceColumn: bank
+
+		annotation SummarizationSetBy = Automatic
+
+	column extracted_at
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 87c364e3-7fc8-48d0-9a07-75882d6a728c
+		summarizeBy: none
+		sourceColumn: extracted_at
+
+		variation Variation
+			isDefault
+			relationship: 37ba536d-7736-4716-9e6e-7d68861c5ff8
+			defaultHierarchy: LocalDateTable_0daac7d8-ab4d-4910-b04d-4169161f5ce3.'Jerarquía de fechas'
+
+		annotation SummarizationSetBy = Automatic
+
+	column page_number
+		dataType: int64
+		formatString: 0
+		lineageTag: 8924003f-5b6f-4c0a-af76-ff819ae6db54
+		summarizeBy: sum
+		sourceColumn: page_number
+
+		annotation SummarizationSetBy = Automatic
+
+	column schema_version
+		dataType: int64
+		formatString: 0
+		lineageTag: 346bacf6-a52e-429a-a6eb-2ee828a2e373
+		summarizeBy: sum
+		sourceColumn: schema_version
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'transaction_json.transaction_amount.amount'
+		dataType: decimal
+		formatString: #,0.###############\ "€";-#,0.###############\ "€";#,0.###############\ "€"
+		lineageTag: 1adefd28-8c8f-476d-b5a8-b303e4e1a31e
+		summarizeBy: sum
+		sourceColumn: transaction_json.transaction_amount.amount
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"es-ES"}
+
+	column 'transaction_json.booking_date'
+		dataType: dateTime
+		formatString: Short Date
+		lineageTag: edeb2bf1-d886-4d66-887c-42e6dee55b1b
+		summarizeBy: none
+		sourceColumn: transaction_json.booking_date
+
+		variation Variation
+			isDefault
+			relationship: 82547725-cc7f-4f22-810c-7386ab8febe8
+			defaultHierarchy: LocalDateTable_2e2bdd15-cab4-40dd-844d-0f01a906fb6c.'Jerarquía de fechas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'transaction_json.value_date'
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: b8e9ff6c-846b-4df2-b36a-c288ba23e611
+		summarizeBy: none
+		sourceColumn: transaction_json.value_date
+
+		variation Variation
+			isDefault
+			relationship: 7e356859-cd2f-4012-87d1-ca7cf6ac60c9
+			defaultHierarchy: LocalDateTable_f3393d08-736a-4405-9a2d-243ccb2917ca.'Jerarquía de fechas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'transaction_json.remittance_information'
+		dataType: string
+		lineageTag: 446e1696-7f44-46c7-ab67-da3ff7974768
+		summarizeBy: none
+		sourceColumn: transaction_json.remittance_information
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'transaction_json.credit_debit_indicator'
+		dataType: string
+		lineageTag: 5e21dafc-d9b7-4ae9-8cfe-5764013800e4
+		summarizeBy: none
+		sourceColumn: transaction_json.credit_debit_indicator
+
+		annotation SummarizationSetBy = Automatic
+
+	partition laboral_cuenta_transacciones = m
+		mode: import
+		source =
+				let
+				    Origen = Databricks.Catalogs("adb-7405617890011557.17.azuredatabricks.net", "/sql/1.0/warehouses/f2792f7e3fc03d40", [Catalog="openbanking", Database="bronze", QueryTags=null, EnableAutomaticProxyDiscovery=null, Implementation="2.0", Protocol=null]),
+				    enablebanking_transactions_bronze_openbanking_Table = Origen{[Item="enablebanking_transactions",Schema="bronze",Catalog="openbanking",Kind="Table"]}[Data],
+				    #"Columnas quitadas" = Table.RemoveColumns(enablebanking_transactions_bronze_openbanking_Table,{"observation_id", "source_file", "run_id", "account_uid", "identification_hash", "ingested_at"}),
+				    #"Filas filtradas" = Table.SelectRows(#"Columnas quitadas", each ([bank] = "laboral")),
+				    #"JSON analizado" = Table.TransformColumns(#"Filas filtradas",{{"transaction_json", Json.Document}}),
+				    #"Se expandió transaction_json" = Table.ExpandRecordColumn(#"JSON analizado", "transaction_json", {"transaction_amount", "credit_debit_indicator", "booking_date", "value_date", "transaction_date", "remittance_information"}, {"transaction_json.transaction_amount", "transaction_json.credit_debit_indicator", "transaction_json.booking_date", "transaction_json.value_date", "transaction_json.transaction_date", "transaction_json.remittance_information"}),
+				    #"Se expandió transaction_json.transaction_amount" = Table.ExpandRecordColumn(#"Se expandió transaction_json", "transaction_json.transaction_amount", {"amount"}, {"transaction_json.transaction_amount.amount"}),
+				    #"Valores extraídos" = Table.TransformColumns(#"Se expandió transaction_json.transaction_amount", {"transaction_json.remittance_information", each Text.Combine(List.Transform(_, Text.From)), type text}),
+				    #"Tipo cambiado" = Table.TransformColumnTypes(#"Valores extraídos",{{"transaction_json.booking_date", type date}, {"transaction_json.value_date", type date}}),
+				    #"Columnas quitadas1" = Table.RemoveColumns(#"Tipo cambiado",{"transaction_json.transaction_date"}),
+				    #"Tipo cambiado con configuración regional" = Table.TransformColumnTypes(#"Columnas quitadas1", {{"transaction_json.transaction_amount.amount", Currency.Type}}, "en-US"),
+				    #"Duplicados quitados" = Table.Distinct(#"Tipo cambiado con configuración regional", {"transaction_json.booking_date", "transaction_json.remittance_information", "transaction_json.transaction_amount.amount"})
+				in
+				    #"Duplicados quitados"
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

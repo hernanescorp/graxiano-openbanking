@@ -3,3 +3,7 @@ secrets/
 .env
 __pycache__/
 data/
+
+# Archivos locales y datos importados de Power BI
+**/.pbi/
+*.pbix

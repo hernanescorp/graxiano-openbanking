@@ -21,6 +21,15 @@ resources:
             source: WORKSPACE
           max_retries: 0
 
+        - task_key: ingest_bronze_transactions
+          depends_on:
+            - task_key: ingest_banking
+          notebook_task:
+            notebook_path: ../notebooks/03_ingest_bronze_transactions.py.ipynb
+            source: WORKSPACE
+          max_retries: 1
+          min_retry_interval_millis: 60000
+
       queue:
         enabled: true
 

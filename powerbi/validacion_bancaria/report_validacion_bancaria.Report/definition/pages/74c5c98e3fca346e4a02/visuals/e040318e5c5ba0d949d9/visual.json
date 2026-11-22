@@ -1,0 +1,131 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "name": "e040318e5c5ba0d949d9",
+  "position": {
+    "x": 1208.3333333333335,
+    "y": 0,
+    "z": 0,
+    "height": 963.33333333333337,
+    "width": 711.66666666666674,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "laboral_cuenta_transacciones"
+                    }
+                  },
+                  "Property": "bank"
+                }
+              },
+              "queryRef": "`openbanking` `bronze` `enablebanking_transactions`.bank",
+              "nativeQueryRef": "bank",
+              "displayName": "banco"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "laboral_cuenta_transacciones"
+                    }
+                  },
+                  "Property": "extracted_at"
+                }
+              },
+              "queryRef": "`openbanking` `bronze` `enablebanking_transactions`.extracted_at",
+              "nativeQueryRef": "extracted_at",
+              "displayName": "extrac"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "laboral_cuenta_transacciones"
+                    }
+                  },
+                  "Property": "transaction_json.booking_date"
+                }
+              },
+              "queryRef": "`openbanking` `bronze` `enablebanking_transactions`.transaction_json.booking_date",
+              "nativeQueryRef": "transaction_json.booking_date",
+              "displayName": "fecha"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "laboral_cuenta_transacciones"
+                    }
+                  },
+                  "Property": "transaction_json.transaction_amount.amount"
+                }
+              },
+              "queryRef": "Sum(`openbanking` `bronze` `enablebanking_transactions`.transaction_json.transaction_amount.amount)",
+              "nativeQueryRef": "monto",
+              "displayName": "monto"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "laboral_cuenta_transacciones"
+                    }
+                  },
+                  "Property": "transaction_json.remittance_information"
+                }
+              },
+              "queryRef": "`openbanking` `bronze` `enablebanking_transactions`.transaction_json.remittance_information",
+              "nativeQueryRef": "transaction_json.remittance_information",
+              "displayName": "info"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "laboral_cuenta_transacciones"
+                    }
+                  },
+                  "Property": "transaction_json.credit_debit_indicator"
+                }
+              },
+              "queryRef": "`openbanking` `bronze` `enablebanking_transactions`.transaction_json.credit_debit_indicator",
+              "nativeQueryRef": "transaction_json.credit_debit_indicator",
+              "displayName": "g/p"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "laboral_cuenta_transacciones"
+                  }
+                },
+                "Property": "transaction_json.booking_date"
+              }
+            },
+            "direction": "Descending"
+          }
+        ]
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

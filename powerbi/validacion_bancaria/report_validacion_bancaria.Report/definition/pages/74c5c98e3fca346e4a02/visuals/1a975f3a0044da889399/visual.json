@@ -1,0 +1,175 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "name": "1a975f3a0044da889399",
+  "position": {
+    "x": 0,
+    "y": 0,
+    "z": 1,
+    "height": 962.5,
+    "width": 1000,
+    "tabOrder": 1
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "santander_cuenta_transacciones"
+                    }
+                  },
+                  "Property": "bank"
+                }
+              },
+              "queryRef": "santander_cuenta_transacciones.bank",
+              "nativeQueryRef": "bank"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "santander_cuenta_transacciones"
+                    }
+                  },
+                  "Property": "extracted_at"
+                }
+              },
+              "queryRef": "santander_cuenta_transacciones.extracted_at",
+              "nativeQueryRef": "extracted_at"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "santander_cuenta_transacciones"
+                    }
+                  },
+                  "Property": "transaction_json.booking_date"
+                }
+              },
+              "queryRef": "santander_cuenta_transacciones.transaction_json.booking_date",
+              "nativeQueryRef": "fecha",
+              "displayName": "fecha"
+            },
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "santander_cuenta_transacciones"
+                        }
+                      },
+                      "Property": "transaction_json.transaction_amount.amount"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "Sum(santander_cuenta_transacciones.transaction_json.transaction_amount.amount)",
+              "nativeQueryRef": "monto",
+              "displayName": "monto"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "santander_cuenta_transacciones"
+                    }
+                  },
+                  "Property": "transaction_json.remittance_information"
+                }
+              },
+              "queryRef": "santander_cuenta_transacciones.transaction_json.remittance_information",
+              "nativeQueryRef": "info",
+              "displayName": "info"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "santander_cuenta_transacciones"
+                    }
+                  },
+                  "Property": "transaction_json.credit_debit_indicator"
+                }
+              },
+              "queryRef": "santander_cuenta_transacciones.transaction_json.credit_debit_indicator",
+              "nativeQueryRef": "G/P",
+              "displayName": "G/P"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "santander_cuenta_transacciones"
+                  }
+                },
+                "Property": "transaction_json.booking_date"
+              }
+            },
+            "direction": "Descending"
+          }
+        ]
+      }
+    },
+    "objects": {
+      "columnWidth": [
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "466.66666666666663D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "santander_cuenta_transacciones.transaction_json.remittance_information"
+          }
+        }
+      ],
+      "columnHeaders": [
+        {
+          "properties": {}
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "311ce21c17734e69839a",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "santander_cuenta_transacciones"
+              }
+            },
+            "Property": "bank"
+          }
+        },
+        "type": "Categorical"
+      }
+    ]
+  }
+}

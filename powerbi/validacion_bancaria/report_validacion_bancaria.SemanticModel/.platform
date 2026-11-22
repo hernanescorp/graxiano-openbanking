@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "report_validacion_bancaria"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "e1cec7a9-2b04-4dc5-a6b6-9812c239a970"
+  }
+}
