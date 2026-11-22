@@ -1,0 +1,30 @@
+resources:
+  jobs:
+    whatsapp_orders_bronze:
+      name: whatsapp-orders-bronze
+
+      email_notifications:
+        on_failure:
+          - admin@graxiano.com
+
+      trigger:
+        pause_status: UNPAUSED
+        file_arrival:
+          url: abfss://receipts@graxianodatalake.dfs.core.windows.net/documents/
+          min_time_between_triggers_seconds: 900
+          wait_after_last_change_seconds: 60
+
+      max_concurrent_runs: 1
+
+      tasks:
+        - task_key: ingest_orders
+          notebook_task:
+            notebook_path: ../notebooks/04_ingest_bronze_whatsapp_orders.py.ipynb
+            source: WORKSPACE
+          max_retries: 1
+          min_retry_interval_millis: 60000
+
+      queue:
+        enabled: true
+
+      performance_target: STANDARD
