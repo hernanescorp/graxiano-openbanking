@@ -10,8 +10,8 @@
       "nodes": [
         {
           "location": {
-            "x": 382,
-            "y": 41.25
+            "x": 364.01284796573879,
+            "y": 365.01873661670237
           },
           "nodeIndex": "laboral_cuenta_transacciones",
           "nodeLineageTag": "e311ad32-3333-4e54-80fa-2fbee1138055",
@@ -23,8 +23,8 @@
         },
         {
           "location": {
-            "x": 0,
-            "y": 26.25
+            "x": 69.700214132762312,
+            "y": 88.08083511777302
           },
           "nodeIndex": "santander_cuenta_transacciones",
           "nodeLineageTag": "58a04343-c7c9-4a9d-b51f-6c1dd4951652",
@@ -36,20 +36,20 @@
         },
         {
           "location": {
-            "x": 666,
-            "y": 10.75
+            "x": 667.12419700214127,
+            "y": 70.3324411134904
           },
           "nodeIndex": "whatsapp_order_lines",
           "nodeLineageTag": "2f096809-1e09-43e3-b5aa-2a0b8fe3a719",
           "size": {
-            "height": 296,
+            "height": 245.41113490364023,
             "width": 234
           },
           "zIndex": 0
         }
       ],
       "name": "Todas las tablas",
-      "zoomValue": 100,
+      "zoomValue": 88.952380952380949,
       "pinKeyFieldsToTop": false,
       "showExtraHeaderInfo": false,
       "hideKeyFieldsWhenCollapsed": false,
