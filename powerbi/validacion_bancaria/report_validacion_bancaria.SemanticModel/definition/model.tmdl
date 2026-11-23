@@ -9,7 +9,7 @@ model Model
 
 annotation __PBI_TimeIntelligenceEnabled = 1
 
-annotation PBI_QueryOrder = ["laboral_cuenta_transacciones","santander_cuenta_transacciones"]
+annotation PBI_QueryOrder = ["laboral_cuenta_transacciones","santander_cuenta_transacciones","whatsapp_order_lines"]
 
 annotation PBI_ProTooling = ["DevMode"]
 
@@ -22,6 +22,10 @@ ref table santander_cuenta_transacciones
 ref table LocalDateTable_0faa63a4-fe04-4381-9193-71b4678b2fb7
 ref table LocalDateTable_3678aeb4-a75e-4182-9446-6545b18b2562
 ref table LocalDateTable_84257ff9-cd79-4e90-815a-55b112ed7d50
+ref table whatsapp_order_lines
+ref table LocalDateTable_9086810a-fd44-4df4-9a90-82bc18424a3f
+ref table LocalDateTable_22fab754-7430-4b49-b1f0-bfc48611fe03
+ref table LocalDateTable_baeb5279-5564-40de-939f-294cfff30bc8
 
 ref cultureInfo es-ES
 

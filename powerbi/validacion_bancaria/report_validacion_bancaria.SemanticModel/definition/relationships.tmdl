@@ -28,3 +28,18 @@ relationship 0423ee28-a980-4f99-8507-30d707ee9b04
 	fromColumn: santander_cuenta_transacciones.'transaction_json.value_date'
 	toColumn: LocalDateTable_84257ff9-cd79-4e90-815a-55b112ed7d50.Date
 
+relationship 38d42cf2-9170-4a50-b9c0-e385fbb94365
+	joinOnDateBehavior: datePartOnly
+	fromColumn: whatsapp_order_lines.order_date_raw
+	toColumn: LocalDateTable_9086810a-fd44-4df4-9a90-82bc18424a3f.Date
+
+relationship 6dc10bee-1f1a-4473-b274-aee0d9b2f48c
+	joinOnDateBehavior: datePartOnly
+	fromColumn: whatsapp_order_lines.delivery_date_raw
+	toColumn: LocalDateTable_22fab754-7430-4b49-b1f0-bfc48611fe03.Date
+
+relationship 953f5ca1-03aa-4fbd-bbdc-2c03fa90ea38
+	joinOnDateBehavior: datePartOnly
+	fromColumn: whatsapp_order_lines.ingested_at
+	toColumn: LocalDateTable_baeb5279-5564-40de-939f-294cfff30bc8.Date
+

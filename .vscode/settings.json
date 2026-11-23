@@ -1,0 +1,15 @@
+{
+    "jupyter.interactiveWindow.cellMarker.codeRegex": "^# COMMAND ----------|^# Databricks notebook source|^(#\\s*%%|#\\s*\\<codecell\\>|#\\s*In\\[\\d*?\\]|#\\s*In\\[ \\])",
+    "jupyter.interactiveWindow.cellMarker.default": "# COMMAND ----------",
+    "sqltools.connections": [
+        {
+            "connectionMethod": "VS Code Extension (beta)",
+            "catalog": "pedidos",
+            "previewLimit": 50,
+            "driver": "Databricks",
+            "name": "Graxiano - Pedidos",
+            "path": "/sql/1.0/warehouses/f2792f7e3fc03d40",
+            "schema": "bronze"
+        }
+    ]
+}

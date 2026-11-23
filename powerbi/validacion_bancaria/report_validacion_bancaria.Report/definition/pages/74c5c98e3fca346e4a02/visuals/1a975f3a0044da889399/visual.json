@@ -2,12 +2,12 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
   "name": "1a975f3a0044da889399",
   "position": {
-    "x": 0,
-    "y": 0,
-    "z": 1,
-    "height": 962.5,
-    "width": 1000,
-    "tabOrder": 1
+    "x": 32,
+    "y": 628,
+    "width": 676,
+    "height": 344,
+    "z": 5,
+    "tabOrder": 5
   },
   "visual": {
     "visualType": "tableEx",
@@ -27,7 +27,8 @@
                 }
               },
               "queryRef": "santander_cuenta_transacciones.bank",
-              "nativeQueryRef": "bank"
+              "nativeQueryRef": "Banco",
+              "displayName": "Banco"
             },
             {
               "field": {
@@ -41,7 +42,8 @@
                 }
               },
               "queryRef": "santander_cuenta_transacciones.extracted_at",
-              "nativeQueryRef": "extracted_at"
+              "nativeQueryRef": "Extracción",
+              "displayName": "Extracción"
             },
             {
               "field": {
@@ -55,8 +57,8 @@
                 }
               },
               "queryRef": "santander_cuenta_transacciones.transaction_json.booking_date",
-              "nativeQueryRef": "fecha",
-              "displayName": "fecha"
+              "nativeQueryRef": "Fecha contable",
+              "displayName": "Fecha contable"
             },
             {
               "field": {
@@ -75,8 +77,8 @@
                 }
               },
               "queryRef": "Sum(santander_cuenta_transacciones.transaction_json.transaction_amount.amount)",
-              "nativeQueryRef": "monto",
-              "displayName": "monto"
+              "nativeQueryRef": "Importe",
+              "displayName": "Importe"
             },
             {
               "field": {
@@ -90,8 +92,8 @@
                 }
               },
               "queryRef": "santander_cuenta_transacciones.transaction_json.remittance_information",
-              "nativeQueryRef": "info",
-              "displayName": "info"
+              "nativeQueryRef": "Concepto",
+              "displayName": "Concepto"
             },
             {
               "field": {
@@ -105,8 +107,8 @@
                 }
               },
               "queryRef": "santander_cuenta_transacciones.transaction_json.credit_debit_indicator",
-              "nativeQueryRef": "G/P",
-              "displayName": "G/P"
+              "nativeQueryRef": "Crédito / débito",
+              "displayName": "Crédito / débito"
             }
           ]
         }
@@ -136,7 +138,63 @@
             "value": {
               "expr": {
                 "Literal": {
-                  "Value": "466.66666666666663D"
+                  "Value": "64D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "santander_cuenta_transacciones.bank"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "115D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "santander_cuenta_transacciones.extracted_at"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "98D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "santander_cuenta_transacciones.transaction_json.booking_date"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "76D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Sum(santander_cuenta_transacciones.transaction_json.transaction_amount.amount)"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "173D"
                 }
               }
             }
@@ -144,15 +202,194 @@
           "selector": {
             "metadata": "santander_cuenta_transacciones.transaction_json.remittance_information"
           }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "106D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "santander_cuenta_transacciones.transaction_json.credit_debit_indicator"
+          }
         }
       ],
       "columnHeaders": [
         {
-          "properties": {}
+          "properties": {
+            "backColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#123258'"
+                    }
+                  }
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#FFFFFF'"
+                    }
+                  }
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "10D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "values": [
+        {
+          "properties": {
+            "backColorPrimary": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#FFFFFF'"
+                    }
+                  }
+                }
+              }
+            },
+            "backColorSecondary": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#EDF4FC'"
+                    }
+                  }
+                }
+              }
+            },
+            "fontColorPrimary": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#123258'"
+                    }
+                  }
+                }
+              }
+            },
+            "fontColorSecondary": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#123258'"
+                    }
+                  }
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "10D"
+                }
+              }
+            }
+          }
         }
       ]
     },
-    "drillFilterOtherVisuals": true
+    "drillFilterOtherVisuals": true,
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Santander · Detalle de movimientos'"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#123258'"
+                    }
+                  }
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "14D"
+                }
+              }
+            },
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#FFFFFF'"
+                    }
+                  }
+                }
+              }
+            },
+            "transparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
   },
   "filterConfig": {
     "filters": [

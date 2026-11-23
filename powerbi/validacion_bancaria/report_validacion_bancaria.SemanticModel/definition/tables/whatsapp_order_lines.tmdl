@@ -1,0 +1,119 @@
+table whatsapp_order_lines
+	lineageTag: 2f096809-1e09-43e3-b5aa-2a0b8fe3a719
+
+	column line_number
+		dataType: int64
+		formatString: 0
+		lineageTag: e3734393-62f0-4364-bced-582b6b20b925
+		summarizeBy: sum
+		sourceColumn: line_number
+
+		annotation SummarizationSetBy = Automatic
+
+	column customer_raw
+		dataType: string
+		lineageTag: 739dea13-ccfc-411b-b5d1-ac420d313e5b
+		summarizeBy: none
+		sourceColumn: customer_raw
+
+		annotation SummarizationSetBy = Automatic
+
+	column order_date_raw
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: b6116c9c-57cf-40b5-8611-160a2fea5461
+		summarizeBy: none
+		sourceColumn: order_date_raw
+
+		variation Variation
+			isDefault
+			relationship: 38d42cf2-9170-4a50-b9c0-e385fbb94365
+			defaultHierarchy: LocalDateTable_9086810a-fd44-4df4-9a90-82bc18424a3f.'Jerarquía de fechas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column delivery_date_raw
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 6305e812-7401-483e-8d15-51f89476073f
+		summarizeBy: none
+		sourceColumn: delivery_date_raw
+
+		variation Variation
+			isDefault
+			relationship: 6dc10bee-1f1a-4473-b274-aee0d9b2f48c
+			defaultHierarchy: LocalDateTable_22fab754-7430-4b49-b1f0-bfc48611fe03.'Jerarquía de fechas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column delivery_notes_raw
+		dataType: string
+		lineageTag: eff5c7b9-d624-40f2-8be9-08acbee2c23f
+		summarizeBy: none
+		sourceColumn: delivery_notes_raw
+
+		annotation SummarizationSetBy = Automatic
+
+	column product_raw
+		dataType: string
+		lineageTag: 9071806d-218b-49ee-9a88-88af6aa53e8b
+		summarizeBy: none
+		sourceColumn: product_raw
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'quantity_raw.1'
+		dataType: int64
+		formatString: 0
+		lineageTag: 9e826a7c-413e-4fa5-a45f-8cf9f751823f
+		summarizeBy: sum
+		sourceColumn: quantity_raw.1
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'quantity_raw.2'
+		dataType: string
+		lineageTag: 2cf60986-6fff-4690-ba38-840f64e300f5
+		summarizeBy: none
+		sourceColumn: quantity_raw.2
+
+		annotation SummarizationSetBy = Automatic
+
+	column ingested_at
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 205d30e6-9a2c-4dc0-abf6-e06a495134a8
+		summarizeBy: none
+		sourceColumn: ingested_at
+
+		variation Variation
+			isDefault
+			relationship: 953f5ca1-03aa-4fbd-bbdc-2c03fa90ea38
+			defaultHierarchy: LocalDateTable_baeb5279-5564-40de-939f-294cfff30bc8.'Jerarquía de fechas'
+
+		annotation SummarizationSetBy = Automatic
+
+	partition whatsapp_order_lines = m
+		mode: import
+		source =
+				let
+				    Origen = Databricks.Catalogs("adb-7405617890011557.17.azuredatabricks.net", "/sql/1.0/warehouses/f2792f7e3fc03d40", [Catalog=null, Database=null, QueryTags=null, EnableAutomaticProxyDiscovery=null, Implementation="2.0", Protocol=null]),
+				    pedidos_Database = Origen{[Name="pedidos",Kind="Database"]}[Data],
+				    bronze_Schema = pedidos_Database{[Name="bronze",Kind="Schema"]}[Data],
+				    whatsapp_order_lines_Table = bronze_Schema{[Name="whatsapp_order_lines",Kind="Table"]}[Data],
+				    #"Columnas quitadas" = Table.RemoveColumns(whatsapp_order_lines_Table,{"observation_id", "source_file", "document_sha256", "media_id", "parser_version", "page_number"}),
+				    #"Tipo cambiado" = Table.TransformColumnTypes(#"Columnas quitadas",{{"delivery_date_raw", type date}, {"order_date_raw", type date}}),
+				    #"Dividir columna por delimitador" = Table.SplitColumn(#"Tipo cambiado", "quantity_raw", Splitter.SplitTextByDelimiter(" ", QuoteStyle.Csv), {"quantity_raw.1", "quantity_raw.2", "quantity_raw.3", "quantity_raw.4", "quantity_raw.5"}),
+				    #"Tipo cambiado1" = Table.TransformColumnTypes(#"Dividir columna por delimitador",{{"quantity_raw.1", Int64.Type}, {"quantity_raw.2", type text}, {"quantity_raw.3", type text}, {"quantity_raw.4", Int64.Type}, {"quantity_raw.5", type text}}),
+				    #"Columnas quitadas1" = Table.RemoveColumns(#"Tipo cambiado1",{"quantity_raw.3", "quantity_raw.4", "quantity_raw.5"})
+				in
+				    #"Columnas quitadas1"
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

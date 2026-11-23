@@ -271,7 +271,7 @@ cultureInfo es-ES
 			          }
 			        },
 			        {
-			          "banco": {
+			          "Banco": {
 			            "State": "Suggested",
 			            "Source": {
 			              "Type": "External",
@@ -310,7 +310,7 @@ cultureInfo es-ES
 			          }
 			        },
 			        {
-			          "extrac": {
+			          "Extracción": {
 			            "State": "Suggested",
 			            "Source": {
 			              "Type": "External",
@@ -683,7 +683,7 @@ cultureInfo es-ES
 			          }
 			        },
 			        {
-			          "monto": {
+			          "Importe": {
 			            "State": "Suggested",
 			            "Source": {
 			              "Type": "External",
@@ -715,7 +715,7 @@ cultureInfo es-ES
 			          }
 			        },
 			        {
-			          "fecha": {
+			          "Fecha contable": {
 			            "State": "Suggested",
 			            "Source": {
 			              "Type": "External",
@@ -993,7 +993,7 @@ cultureInfo es-ES
 			          }
 			        },
 			        {
-			          "info": {
+			          "Concepto": {
 			            "State": "Suggested",
 			            "Source": {
 			              "Type": "External",
@@ -1019,7 +1019,7 @@ cultureInfo es-ES
 			          }
 			        },
 			        {
-			          "g/p": {
+			          "Crédito / débito": {
 			            "State": "Suggested",
 			            "Source": {
 			              "Type": "External",
@@ -1294,6 +1294,16 @@ cultureInfo es-ES
 			            },
 			            "Weight": 0.452
 			          }
+			        },
+			        {
+			          "Banco": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
 			        }
 			      ]
 			    },
@@ -1322,6 +1332,16 @@ cultureInfo es-ES
 			          "date": {
 			            "State": "Generated",
 			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "Extracción": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
 			          }
 			        }
 			      ],
@@ -1704,7 +1724,7 @@ cultureInfo es-ES
 			          }
 			        },
 			        {
-			          "G/P": {
+			          "Crédito / débito": {
 			            "State": "Suggested",
 			            "Source": {
 			              "Type": "External",
@@ -1736,7 +1756,7 @@ cultureInfo es-ES
 			          }
 			        },
 			        {
-			          "fecha": {
+			          "Fecha contable": {
 			            "State": "Suggested",
 			            "Source": {
 			              "Type": "External",
@@ -2014,7 +2034,175 @@ cultureInfo es-ES
 			          }
 			        },
 			        {
-			          "info": {
+			          "Concepto": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "whatsapp_order_lines.order_date_raw": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "whatsapp_order_lines",
+			          "ConceptualProperty": "order_date_raw"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Fecha del pedido": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "whatsapp_order_lines.delivery_date_raw": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "whatsapp_order_lines",
+			          "ConceptualProperty": "delivery_date_raw"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Fecha de entrega": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "whatsapp_order_lines.customer_raw": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "whatsapp_order_lines",
+			          "ConceptualProperty": "customer_raw"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Cliente": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "whatsapp_order_lines.product_raw": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "whatsapp_order_lines",
+			          "ConceptualProperty": "product_raw"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Producto": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "whatsapp_order_lines.quantity_raw_1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "whatsapp_order_lines",
+			          "ConceptualProperty": "quantity_raw.1"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Cantidad": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "whatsapp_order_lines.quantity_raw_2": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "whatsapp_order_lines",
+			          "ConceptualProperty": "quantity_raw.2"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Unidad": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "whatsapp_order_lines.delivery_notes_raw": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "whatsapp_order_lines",
+			          "ConceptualProperty": "delivery_notes_raw"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Notas de entrega": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "whatsapp_order_lines.line_number": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "whatsapp_order_lines",
+			          "ConceptualProperty": "line_number"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Línea": {
 			            "State": "Suggested",
 			            "Source": {
 			              "Type": "External",
